@@ -6,5 +6,5 @@ import com.sky.entity.User;
 import javax.security.auth.login.LoginException;
 
 public interface UserService {
-    public User wxLogin(UserLoginDTO userLoginDTO) throws LoginException;
+    User wxLogin(UserLoginDTO userLoginDTO) throws LoginException;
 }
