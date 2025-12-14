@@ -1,0 +1,11 @@
+server:
+  port: 8082
+hm:
+  db:
+    database: hm-cart
+    port: 3307
+  swagger:
+    title: 黑马商城购物车服务接口文档
+    description: 黑马商城购物车服务接口文档
+    api-rule-resources: com.hmall.cart.controller
+# keytool -genkeypair -alias hmall -keyalg RSA -keypass hmall123 -keystore hmall.jks -storepass hmall123

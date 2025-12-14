@@ -1,0 +1,6 @@
+D:\LearningCode\Code\ideaProject\hmall\hm-gateway\src\main\java\com\hmall\gateway\config\AuthProperties.java
+D:\LearningCode\Code\ideaProject\hmall\hm-gateway\src\main\java\com\hmall\gateway\config\JwtProperties.java
+D:\LearningCode\Code\ideaProject\hmall\hm-gateway\src\main\java\com\hmall\gateway\config\SecurityConfig.java
+D:\LearningCode\Code\ideaProject\hmall\hm-gateway\src\main\java\com\hmall\gateway\utils\JwtTool.java
+D:\LearningCode\Code\ideaProject\hmall\hm-gateway\src\main\java\com\hmall\gateway\filter\AuthGlobalFilter.java
+D:\LearningCode\Code\ideaProject\hmall\hm-gateway\src\main\java\com\hmall\gateway\GatewaApplication.java
