@@ -4,6 +4,10 @@ spring:
   profiles:
     active: dev
   cloud:
+    sentinel:
+      transport:
+        dashboard: localhost:8090
+      http-method-specify: true
     nacos:
 #      server-addr: 127.0.0.1:8848
       config:
@@ -12,3 +16,4 @@ spring:
           - data-id: shared-jdbc.yml
           - data-id: shared-logs.yml
           - data-id: shared-knife4j.yml
+          - dataId: shared-seata.yaml # 共享seata配置

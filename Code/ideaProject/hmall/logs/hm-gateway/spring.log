@@ -1,0 +1,1017 @@
+00:31:52:141  INFO 35160 --- [main] com.hmall.gateway.GatewaApplication      : The following 1 profile is active: "local"
+00:31:52:443  INFO 35160 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=005c83c3-31e9-3b08-aa29-0a465f17c176
+00:31:52:470  INFO 35160 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+00:31:52:470  INFO 35160 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+00:31:52:471  INFO 35160 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+00:31:53:474  INFO 35160 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+00:31:53:474  INFO 35160 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+00:31:53:474  INFO 35160 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+00:31:53:474  INFO 35160 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+00:31:53:474  INFO 35160 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+00:31:53:474  INFO 35160 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+00:31:53:474  INFO 35160 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+00:31:53:474  INFO 35160 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+00:31:53:474  INFO 35160 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+00:31:53:474  INFO 35160 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+00:31:53:474  INFO 35160 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+00:31:53:475  INFO 35160 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+00:31:53:475  INFO 35160 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+00:31:53:475  INFO 35160 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+00:31:53:836  INFO 35160 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 30c40c04-16cf-4d2a-8f4d-5e9f70da6d65
+00:31:53:837  INFO 35160 --- [main] com.alibaba.nacos.common.remote.client   : [30c40c04-16cf-4d2a-8f4d-5e9f70da6d65] RpcClient init label, labels = {module=naming, source=sdk}
+00:31:53:837  INFO 35160 --- [main] com.alibaba.nacos.common.remote.client   : [30c40c04-16cf-4d2a-8f4d-5e9f70da6d65] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+00:31:53:837  INFO 35160 --- [main] com.alibaba.nacos.common.remote.client   : [30c40c04-16cf-4d2a-8f4d-5e9f70da6d65] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+00:31:53:838  INFO 35160 --- [main] com.alibaba.nacos.common.remote.client   : [30c40c04-16cf-4d2a-8f4d-5e9f70da6d65] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+00:31:53:838  INFO 35160 --- [main] com.alibaba.nacos.common.remote.client   : [30c40c04-16cf-4d2a-8f4d-5e9f70da6d65] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+00:31:53:965  INFO 35160 --- [main] com.alibaba.nacos.common.remote.client   : [30c40c04-16cf-4d2a-8f4d-5e9f70da6d65] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1765816313845_172.18.0.1_41151
+00:31:53:965  INFO 35160 --- [main] com.alibaba.nacos.common.remote.client   : [30c40c04-16cf-4d2a-8f4d-5e9f70da6d65] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+00:31:53:965  INFO 35160 --- [main] com.alibaba.nacos.common.remote.client   : [30c40c04-16cf-4d2a-8f4d-5e9f70da6d65] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$468/0x00000008003f3040
+00:31:53:965  INFO 35160 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [30c40c04-16cf-4d2a-8f4d-5e9f70da6d65] Notify connected event to listeners.
+00:31:54:194  INFO 35160 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080
+00:31:54:549  INFO 35160 --- [nacos-grpc-client-executor-5] com.alibaba.nacos.common.remote.client   : [30c40c04-16cf-4d2a-8f4d-5e9f70da6d65] Receive server push request, request = NotifySubscriberRequest, requestId = 61
+00:31:54:557  INFO 35160 --- [nacos-grpc-client-executor-5] com.alibaba.nacos.common.remote.client   : [30c40c04-16cf-4d2a-8f4d-5e9f70da6d65] Ack server push request, request = NotifySubscriberRequest, requestId = 61
+00:31:54:637  INFO 35160 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP hm-gateway 192.168.1.107:8080 register finished
+00:31:54:643  INFO 35160 --- [main] com.hmall.gateway.GatewaApplication      : Started GatewaApplication in 5.393 seconds (JVM running for 6.166)
+00:31:54:645  INFO 35160 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateway-local.yaml, group=DEFAULT_GROUP
+00:31:54:645  INFO 35160 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateway, group=DEFAULT_GROUP
+00:31:54:645  INFO 35160 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateway.yaml, group=DEFAULT_GROUP
+00:31:55:144  INFO 35160 --- [nacos-grpc-client-executor-9] com.alibaba.nacos.common.remote.client   : [30c40c04-16cf-4d2a-8f4d-5e9f70da6d65] Receive server push request, request = NotifySubscriberRequest, requestId = 62
+00:31:55:150  INFO 35160 --- [nacos-grpc-client-executor-9] com.alibaba.nacos.common.remote.client   : [30c40c04-16cf-4d2a-8f4d-5e9f70da6d65] Ack server push request, request = NotifySubscriberRequest, requestId = 62
+00:35:29:128  WARN 35160 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+00:35:29:128  WARN 35160 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+00:35:29:129  WARN 35160 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+00:35:29:129  WARN 35160 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+00:35:29:141  INFO 35160 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+00:35:29:144  INFO 35160 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+00:35:29:474  INFO 35160 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+00:35:29:474  INFO 35160 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@8c72e1f[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+00:35:29:474  INFO 35160 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1765816313845_172.18.0.1_41151
+00:35:29:476  INFO 35160 --- [nacos-grpc-client-executor-55] c.a.n.c.remote.client.grpc.GrpcClient    : [1765816313845_172.18.0.1_41151]Ignore complete event,isRunning:false,isAbandon=false
+00:35:29:477  INFO 35160 --- [SpringApplicationShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@39ca3e7e[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 56]
+00:35:36:727  INFO 2692 --- [main] com.hmall.gateway.GatewaApplication      : The following 1 profile is active: "local"
+00:35:37:084  INFO 2692 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=005c83c3-31e9-3b08-aa29-0a465f17c176
+00:35:37:123  INFO 2692 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+00:35:37:124  INFO 2692 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+00:35:37:124  INFO 2692 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+00:35:38:349  INFO 2692 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+00:35:38:349  INFO 2692 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+00:35:38:349  INFO 2692 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+00:35:38:349  INFO 2692 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+00:35:38:349  INFO 2692 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+00:35:38:349  INFO 2692 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+00:35:38:349  INFO 2692 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+00:35:38:349  INFO 2692 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+00:35:38:349  INFO 2692 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+00:35:38:349  INFO 2692 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+00:35:38:349  INFO 2692 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+00:35:38:349  INFO 2692 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+00:35:38:349  INFO 2692 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+00:35:38:349  INFO 2692 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+00:35:38:734  INFO 2692 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 4e7a8026-ccf8-462e-97d8-80f6d2994987
+00:35:38:734  INFO 2692 --- [main] com.alibaba.nacos.common.remote.client   : [4e7a8026-ccf8-462e-97d8-80f6d2994987] RpcClient init label, labels = {module=naming, source=sdk}
+00:35:38:735  INFO 2692 --- [main] com.alibaba.nacos.common.remote.client   : [4e7a8026-ccf8-462e-97d8-80f6d2994987] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+00:35:38:735  INFO 2692 --- [main] com.alibaba.nacos.common.remote.client   : [4e7a8026-ccf8-462e-97d8-80f6d2994987] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+00:35:38:735  INFO 2692 --- [main] com.alibaba.nacos.common.remote.client   : [4e7a8026-ccf8-462e-97d8-80f6d2994987] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+00:35:38:735  INFO 2692 --- [main] com.alibaba.nacos.common.remote.client   : [4e7a8026-ccf8-462e-97d8-80f6d2994987] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+00:35:38:863  INFO 2692 --- [main] com.alibaba.nacos.common.remote.client   : [4e7a8026-ccf8-462e-97d8-80f6d2994987] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1765816538748_172.18.0.1_39733
+00:35:38:863  INFO 2692 --- [main] com.alibaba.nacos.common.remote.client   : [4e7a8026-ccf8-462e-97d8-80f6d2994987] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+00:35:38:863  INFO 2692 --- [main] com.alibaba.nacos.common.remote.client   : [4e7a8026-ccf8-462e-97d8-80f6d2994987] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$468/0x00000008003eb040
+00:35:38:863  INFO 2692 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [4e7a8026-ccf8-462e-97d8-80f6d2994987] Notify connected event to listeners.
+00:35:39:104  INFO 2692 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080
+00:35:39:383  INFO 2692 --- [nacos-grpc-client-executor-5] com.alibaba.nacos.common.remote.client   : [4e7a8026-ccf8-462e-97d8-80f6d2994987] Receive server push request, request = NotifySubscriberRequest, requestId = 67
+00:35:39:392  INFO 2692 --- [nacos-grpc-client-executor-5] com.alibaba.nacos.common.remote.client   : [4e7a8026-ccf8-462e-97d8-80f6d2994987] Ack server push request, request = NotifySubscriberRequest, requestId = 67
+00:35:39:604  INFO 2692 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP hm-gateway 192.168.1.107:8080 register finished
+00:35:39:614  INFO 2692 --- [main] com.hmall.gateway.GatewaApplication      : Started GatewaApplication in 4.994 seconds (JVM running for 5.497)
+00:35:39:616  INFO 2692 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateway-local.yaml, group=DEFAULT_GROUP
+00:35:39:616  INFO 2692 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateway, group=DEFAULT_GROUP
+00:35:39:616  INFO 2692 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateway.yaml, group=DEFAULT_GROUP
+00:35:40:178  INFO 2692 --- [nacos-grpc-client-executor-8] com.alibaba.nacos.common.remote.client   : [4e7a8026-ccf8-462e-97d8-80f6d2994987] Receive server push request, request = NotifySubscriberRequest, requestId = 68
+00:35:40:187  INFO 2692 --- [nacos-grpc-client-executor-8] com.alibaba.nacos.common.remote.client   : [4e7a8026-ccf8-462e-97d8-80f6d2994987] Ack server push request, request = NotifySubscriberRequest, requestId = 68
+00:35:48:410  WARN 2692 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+00:35:48:410  WARN 2692 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+00:35:48:411  WARN 2692 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+00:35:48:411  WARN 2692 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+00:35:48:421  INFO 2692 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+00:35:48:425  INFO 2692 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+00:35:48:988  INFO 2692 --- [nacos-grpc-client-executor-13] com.alibaba.nacos.common.remote.client   : [4e7a8026-ccf8-462e-97d8-80f6d2994987] Receive server push request, request = NotifySubscriberRequest, requestId = 71
+00:35:48:997  INFO 2692 --- [nacos-grpc-client-executor-13] com.alibaba.nacos.common.remote.client   : [4e7a8026-ccf8-462e-97d8-80f6d2994987] Ack server push request, request = NotifySubscriberRequest, requestId = 71
+00:35:49:061  INFO 2692 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+00:35:49:062  INFO 2692 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@53e13c45[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+00:35:49:062  INFO 2692 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1765816538748_172.18.0.1_39733
+00:35:49:063  INFO 2692 --- [nacos-grpc-client-executor-14] c.a.n.c.remote.client.grpc.GrpcClient    : [1765816538748_172.18.0.1_39733]Ignore complete event,isRunning:false,isAbandon=false
+00:35:49:063  INFO 2692 --- [SpringApplicationShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@26c91878[Running, pool size = 10, active threads = 0, queued tasks = 0, completed tasks = 15]
+00:35:58:274  INFO 20740 --- [main] com.hmall.gateway.GatewaApplication      : The following 1 profile is active: "local"
+00:35:58:476  INFO 20740 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=005c83c3-31e9-3b08-aa29-0a465f17c176
+00:35:58:500  INFO 20740 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+00:35:58:501  INFO 20740 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+00:35:58:501  INFO 20740 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+00:35:59:337  INFO 20740 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+00:35:59:337  INFO 20740 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+00:35:59:337  INFO 20740 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+00:35:59:337  INFO 20740 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+00:35:59:337  INFO 20740 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+00:35:59:337  INFO 20740 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+00:35:59:338  INFO 20740 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+00:35:59:338  INFO 20740 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+00:35:59:338  INFO 20740 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+00:35:59:338  INFO 20740 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+00:35:59:338  INFO 20740 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+00:35:59:338  INFO 20740 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+00:35:59:338  INFO 20740 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+00:35:59:338  INFO 20740 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+00:35:59:653  INFO 20740 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 34623a68-525a-41c0-83fc-6c52b44111a3
+00:35:59:653  INFO 20740 --- [main] com.alibaba.nacos.common.remote.client   : [34623a68-525a-41c0-83fc-6c52b44111a3] RpcClient init label, labels = {module=naming, source=sdk}
+00:35:59:654  INFO 20740 --- [main] com.alibaba.nacos.common.remote.client   : [34623a68-525a-41c0-83fc-6c52b44111a3] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+00:35:59:654  INFO 20740 --- [main] com.alibaba.nacos.common.remote.client   : [34623a68-525a-41c0-83fc-6c52b44111a3] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+00:35:59:654  INFO 20740 --- [main] com.alibaba.nacos.common.remote.client   : [34623a68-525a-41c0-83fc-6c52b44111a3] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+00:35:59:654  INFO 20740 --- [main] com.alibaba.nacos.common.remote.client   : [34623a68-525a-41c0-83fc-6c52b44111a3] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+00:35:59:775  INFO 20740 --- [main] com.alibaba.nacos.common.remote.client   : [34623a68-525a-41c0-83fc-6c52b44111a3] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1765816559660_172.18.0.1_40141
+00:35:59:775  INFO 20740 --- [main] com.alibaba.nacos.common.remote.client   : [34623a68-525a-41c0-83fc-6c52b44111a3] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+00:35:59:775  INFO 20740 --- [main] com.alibaba.nacos.common.remote.client   : [34623a68-525a-41c0-83fc-6c52b44111a3] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$468/0x00000008003eb040
+00:35:59:775  INFO 20740 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [34623a68-525a-41c0-83fc-6c52b44111a3] Notify connected event to listeners.
+00:36:00:080  INFO 20740 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080
+00:36:00:306  INFO 20740 --- [nacos-grpc-client-executor-4] com.alibaba.nacos.common.remote.client   : [34623a68-525a-41c0-83fc-6c52b44111a3] Receive server push request, request = NotifySubscriberRequest, requestId = 79
+00:36:00:313  INFO 20740 --- [nacos-grpc-client-executor-4] com.alibaba.nacos.common.remote.client   : [34623a68-525a-41c0-83fc-6c52b44111a3] Ack server push request, request = NotifySubscriberRequest, requestId = 79
+00:36:00:542  INFO 20740 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP hm-gateway 192.168.1.107:8080 register finished
+00:36:00:548  INFO 20740 --- [main] com.hmall.gateway.GatewaApplication      : Started GatewaApplication in 4.173 seconds (JVM running for 4.755)
+00:36:00:549  INFO 20740 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateway-local.yaml, group=DEFAULT_GROUP
+00:36:00:550  INFO 20740 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateway, group=DEFAULT_GROUP
+00:36:00:550  INFO 20740 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateway.yaml, group=DEFAULT_GROUP
+00:36:01:103  INFO 20740 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [34623a68-525a-41c0-83fc-6c52b44111a3] Receive server push request, request = NotifySubscriberRequest, requestId = 80
+00:36:01:111  INFO 20740 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [34623a68-525a-41c0-83fc-6c52b44111a3] Ack server push request, request = NotifySubscriberRequest, requestId = 80
+00:44:17:276  WARN 20740 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+00:44:17:276  WARN 20740 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+00:44:17:276  WARN 20740 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+00:44:17:277  WARN 20740 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+00:44:17:289  INFO 20740 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+00:44:17:294  INFO 20740 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+00:44:17:632  INFO 20740 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+00:44:17:632  INFO 20740 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@10767bbb[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+00:44:17:632  INFO 20740 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1765816559660_172.18.0.1_40141
+00:44:17:634  INFO 20740 --- [nacos-grpc-client-executor-113] c.a.n.c.remote.client.grpc.GrpcClient    : [1765816559660_172.18.0.1_40141]Ignore complete event,isRunning:false,isAbandon=false
+00:44:17:635  INFO 20740 --- [SpringApplicationShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@1e2c693f[Running, pool size = 6, active threads = 0, queued tasks = 0, completed tasks = 114]
+00:44:22:718  INFO 25912 --- [main] com.hmall.gateway.GatewaApplication      : The following 1 profile is active: "local"
+00:44:22:909  INFO 25912 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=005c83c3-31e9-3b08-aa29-0a465f17c176
+00:44:22:926  INFO 25912 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+00:44:22:927  INFO 25912 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+00:44:22:927  INFO 25912 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+00:44:23:705  INFO 25912 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+00:44:23:705  INFO 25912 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+00:44:23:705  INFO 25912 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+00:44:23:705  INFO 25912 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+00:44:23:705  INFO 25912 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+00:44:23:705  INFO 25912 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+00:44:23:705  INFO 25912 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+00:44:23:705  INFO 25912 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+00:44:23:705  INFO 25912 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+00:44:23:705  INFO 25912 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+00:44:23:705  INFO 25912 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+00:44:23:705  INFO 25912 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+00:44:23:705  INFO 25912 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+00:44:23:705  INFO 25912 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+00:44:24:013  INFO 25912 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of b9111a61-c8dc-44cb-bf95-211aac55d044
+00:44:24:013  INFO 25912 --- [main] com.alibaba.nacos.common.remote.client   : [b9111a61-c8dc-44cb-bf95-211aac55d044] RpcClient init label, labels = {module=naming, source=sdk}
+00:44:24:014  INFO 25912 --- [main] com.alibaba.nacos.common.remote.client   : [b9111a61-c8dc-44cb-bf95-211aac55d044] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+00:44:24:014  INFO 25912 --- [main] com.alibaba.nacos.common.remote.client   : [b9111a61-c8dc-44cb-bf95-211aac55d044] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+00:44:24:014  INFO 25912 --- [main] com.alibaba.nacos.common.remote.client   : [b9111a61-c8dc-44cb-bf95-211aac55d044] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+00:44:24:014  INFO 25912 --- [main] com.alibaba.nacos.common.remote.client   : [b9111a61-c8dc-44cb-bf95-211aac55d044] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+00:44:24:132  INFO 25912 --- [main] com.alibaba.nacos.common.remote.client   : [b9111a61-c8dc-44cb-bf95-211aac55d044] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1765817064020_172.18.0.1_39133
+00:44:24:132  INFO 25912 --- [main] com.alibaba.nacos.common.remote.client   : [b9111a61-c8dc-44cb-bf95-211aac55d044] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+00:44:24:132  INFO 25912 --- [main] com.alibaba.nacos.common.remote.client   : [b9111a61-c8dc-44cb-bf95-211aac55d044] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$468/0x00000008003eb040
+00:44:24:132  INFO 25912 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [b9111a61-c8dc-44cb-bf95-211aac55d044] Notify connected event to listeners.
+00:44:24:327  INFO 25912 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080
+00:44:24:722  INFO 25912 --- [nacos-grpc-client-executor-5] com.alibaba.nacos.common.remote.client   : [b9111a61-c8dc-44cb-bf95-211aac55d044] Receive server push request, request = NotifySubscriberRequest, requestId = 81
+00:44:24:730  INFO 25912 --- [nacos-grpc-client-executor-5] com.alibaba.nacos.common.remote.client   : [b9111a61-c8dc-44cb-bf95-211aac55d044] Ack server push request, request = NotifySubscriberRequest, requestId = 81
+00:44:24:734  INFO 25912 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP hm-gateway 192.168.1.107:8080 register finished
+00:44:24:740  INFO 25912 --- [main] com.hmall.gateway.GatewaApplication      : Started GatewaApplication in 3.662 seconds (JVM running for 4.133)
+00:44:24:742  INFO 25912 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateway-local.yaml, group=DEFAULT_GROUP
+00:44:24:742  INFO 25912 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateway, group=DEFAULT_GROUP
+00:44:24:742  INFO 25912 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateway.yaml, group=DEFAULT_GROUP
+00:44:25:318  INFO 25912 --- [nacos-grpc-client-executor-8] com.alibaba.nacos.common.remote.client   : [b9111a61-c8dc-44cb-bf95-211aac55d044] Receive server push request, request = NotifySubscriberRequest, requestId = 82
+00:44:25:326  INFO 25912 --- [nacos-grpc-client-executor-8] com.alibaba.nacos.common.remote.client   : [b9111a61-c8dc-44cb-bf95-211aac55d044] Ack server push request, request = NotifySubscriberRequest, requestId = 82
+00:45:29:437  WARN 25912 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+00:45:29:437  WARN 25912 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+00:45:29:437  WARN 25912 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+00:45:29:437  WARN 25912 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+00:45:29:445  INFO 25912 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+00:45:29:448  INFO 25912 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+00:45:29:770  INFO 25912 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+00:45:29:770  INFO 25912 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@4b94e2b5[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+00:45:29:770  INFO 25912 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1765817064020_172.18.0.1_39133
+00:45:29:771  INFO 25912 --- [nacos-grpc-client-executor-25] c.a.n.c.remote.client.grpc.GrpcClient    : [1765817064020_172.18.0.1_39133]Ignore complete event,isRunning:false,isAbandon=false
+00:45:29:772  INFO 25912 --- [SpringApplicationShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@51385a69[Running, pool size = 6, active threads = 0, queued tasks = 0, completed tasks = 26]
+00:45:35:495  INFO 29800 --- [main] com.hmall.gateway.GatewaApplication      : The following 1 profile is active: "local"
+00:45:35:681  INFO 29800 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=005c83c3-31e9-3b08-aa29-0a465f17c176
+00:45:35:700  INFO 29800 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+00:45:35:700  INFO 29800 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+00:45:35:701  INFO 29800 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+00:45:36:501  INFO 29800 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+00:45:36:502  INFO 29800 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+00:45:36:502  INFO 29800 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+00:45:36:502  INFO 29800 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+00:45:36:502  INFO 29800 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+00:45:36:502  INFO 29800 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+00:45:36:502  INFO 29800 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+00:45:36:502  INFO 29800 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+00:45:36:502  INFO 29800 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+00:45:36:502  INFO 29800 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+00:45:36:502  INFO 29800 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+00:45:36:502  INFO 29800 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+00:45:36:502  INFO 29800 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+00:45:36:502  INFO 29800 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+00:45:36:809  INFO 29800 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of e7e8e96d-5ddc-4a8b-9e80-4ad854f0e25c
+00:45:36:809  INFO 29800 --- [main] com.alibaba.nacos.common.remote.client   : [e7e8e96d-5ddc-4a8b-9e80-4ad854f0e25c] RpcClient init label, labels = {module=naming, source=sdk}
+00:45:36:809  INFO 29800 --- [main] com.alibaba.nacos.common.remote.client   : [e7e8e96d-5ddc-4a8b-9e80-4ad854f0e25c] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+00:45:36:809  INFO 29800 --- [main] com.alibaba.nacos.common.remote.client   : [e7e8e96d-5ddc-4a8b-9e80-4ad854f0e25c] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+00:45:36:809  INFO 29800 --- [main] com.alibaba.nacos.common.remote.client   : [e7e8e96d-5ddc-4a8b-9e80-4ad854f0e25c] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+00:45:36:810  INFO 29800 --- [main] com.alibaba.nacos.common.remote.client   : [e7e8e96d-5ddc-4a8b-9e80-4ad854f0e25c] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+00:45:36:923  INFO 29800 --- [main] com.alibaba.nacos.common.remote.client   : [e7e8e96d-5ddc-4a8b-9e80-4ad854f0e25c] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1765817136815_172.18.0.1_40715
+00:45:36:923  INFO 29800 --- [main] com.alibaba.nacos.common.remote.client   : [e7e8e96d-5ddc-4a8b-9e80-4ad854f0e25c] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+00:45:36:923  INFO 29800 --- [main] com.alibaba.nacos.common.remote.client   : [e7e8e96d-5ddc-4a8b-9e80-4ad854f0e25c] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$468/0x00000008003fb840
+00:45:36:923  INFO 29800 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [e7e8e96d-5ddc-4a8b-9e80-4ad854f0e25c] Notify connected event to listeners.
+00:45:37:114  INFO 29800 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080
+00:45:37:495  INFO 29800 --- [nacos-grpc-client-executor-5] com.alibaba.nacos.common.remote.client   : [e7e8e96d-5ddc-4a8b-9e80-4ad854f0e25c] Receive server push request, request = NotifySubscriberRequest, requestId = 83
+00:45:37:502  INFO 29800 --- [nacos-grpc-client-executor-5] com.alibaba.nacos.common.remote.client   : [e7e8e96d-5ddc-4a8b-9e80-4ad854f0e25c] Ack server push request, request = NotifySubscriberRequest, requestId = 83
+00:45:37:513  INFO 29800 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP hm-gateway 192.168.1.107:8080 register finished
+00:45:37:521  INFO 29800 --- [main] com.hmall.gateway.GatewaApplication      : Started GatewaApplication in 3.683 seconds (JVM running for 4.137)
+00:45:37:522  INFO 29800 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateway-local.yaml, group=DEFAULT_GROUP
+00:45:37:523  INFO 29800 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateway, group=DEFAULT_GROUP
+00:45:37:523  INFO 29800 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateway.yaml, group=DEFAULT_GROUP
+00:45:38:091  INFO 29800 --- [nacos-grpc-client-executor-8] com.alibaba.nacos.common.remote.client   : [e7e8e96d-5ddc-4a8b-9e80-4ad854f0e25c] Receive server push request, request = NotifySubscriberRequest, requestId = 84
+00:45:38:099  INFO 29800 --- [nacos-grpc-client-executor-8] com.alibaba.nacos.common.remote.client   : [e7e8e96d-5ddc-4a8b-9e80-4ad854f0e25c] Ack server push request, request = NotifySubscriberRequest, requestId = 84
+00:45:42:099  INFO 29800 --- [nacos-grpc-client-executor-15] com.alibaba.nacos.common.remote.client   : [674e257c-0b24-4304-b852-f853a3f42ccd_config-0] Receive server push request, request = ConfigChangeNotifyRequest, requestId = 85
+00:45:42:099  INFO 29800 --- [nacos-grpc-client-executor-15] com.alibaba.nacos.common.remote.client   : [674e257c-0b24-4304-b852-f853a3f42ccd_config-0] Ack server push request, request = ConfigChangeNotifyRequest, requestId = 85
+00:45:42:110  INFO 29800 --- [nacos.client.cachedata.internal.notifier] c.h.gateway.router.DynamicRouteLoader    : Received updated route config: [
+    {
+        "id": "item-service",
+        "predicates": [{
+            "name": "Path",
+            "args": {"_genkey_0":"/items/**", "_genkey_1":"/search/**"}
+        }],
+        "filters": [],
+        "uri": "lb://item-service"
+    },
+    {
+        "id": "cart-service",
+        "predicates": [{
+            "name": "Path",
+            "args": {"_genkey_0":"/carts/**"}
+        }],
+        "filters": [],
+        "uri": "lb://cart-service"
+    },
+    {
+        "id": "user-service",
+        "predicates": [{
+            "name": "Path",
+            "args": {"_genkey_0":"/users/**", "_genkey_1":"/addresses/**"}
+        }],
+        "filters": [],
+        "uri": "lb://user-service"
+    },
+    {
+        "id": "trade-service",
+        "predicates": [{
+            "name": "Path",
+            "args": {"_genkey_0":"/orders/**"}
+        }],
+        "filters": [],
+        "uri": "lb://trade-service"
+    },
+    {
+        "id": "pay-service",
+        "predicates": [{
+            "name": "Path",
+            "args": {"_genkey_0":"/pay-orders/**"}
+        }],
+        "filters": [],
+        "uri": "lb://pay-service"
+    }
+]
+00:45:49:303  INFO 29800 --- [nacos-grpc-client-executor-12] com.alibaba.nacos.common.remote.client   : [e7e8e96d-5ddc-4a8b-9e80-4ad854f0e25c] Receive server push request, request = NotifySubscriberRequest, requestId = 86
+00:45:49:304  INFO 29800 --- [nacos-grpc-client-executor-12] com.alibaba.nacos.common.remote.client   : [e7e8e96d-5ddc-4a8b-9e80-4ad854f0e25c] Ack server push request, request = NotifySubscriberRequest, requestId = 86
+00:46:58:296  WARN 29800 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+00:46:58:297  WARN 29800 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+00:46:58:297  WARN 29800 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+00:46:58:298  WARN 29800 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+00:46:58:309  INFO 29800 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+00:46:58:313  INFO 29800 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+00:46:58:638  INFO 29800 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+00:46:58:638  INFO 29800 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@20275465[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+00:46:58:638  INFO 29800 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1765817136815_172.18.0.1_40715
+00:46:58:640  INFO 29800 --- [SpringApplicationShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@56b7936d[Running, pool size = 5, active threads = 0, queued tasks = 0, completed tasks = 30]
+13:46:07:951  INFO 27244 --- [main] com.hmall.gateway.GatewaApplication      : The following 1 profile is active: "local"
+13:46:08:221  INFO 27244 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=005c83c3-31e9-3b08-aa29-0a465f17c176
+13:46:08:247  INFO 27244 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:46:08:248  INFO 27244 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:46:08:248  INFO 27244 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:46:09:159  INFO 27244 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+13:46:09:159  INFO 27244 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+13:46:09:159  INFO 27244 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+13:46:09:159  INFO 27244 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+13:46:09:159  INFO 27244 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+13:46:09:159  INFO 27244 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+13:46:09:159  INFO 27244 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+13:46:09:159  INFO 27244 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+13:46:09:159  INFO 27244 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+13:46:09:160  INFO 27244 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+13:46:09:160  INFO 27244 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+13:46:09:160  INFO 27244 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+13:46:09:160  INFO 27244 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+13:46:09:160  INFO 27244 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+13:46:09:520  INFO 27244 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 0653b30f-d7f3-4871-b44a-c72e715b96ee
+13:46:09:520  INFO 27244 --- [main] com.alibaba.nacos.common.remote.client   : [0653b30f-d7f3-4871-b44a-c72e715b96ee] RpcClient init label, labels = {module=naming, source=sdk}
+13:46:09:521  INFO 27244 --- [main] com.alibaba.nacos.common.remote.client   : [0653b30f-d7f3-4871-b44a-c72e715b96ee] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+13:46:09:521  INFO 27244 --- [main] com.alibaba.nacos.common.remote.client   : [0653b30f-d7f3-4871-b44a-c72e715b96ee] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+13:46:09:521  INFO 27244 --- [main] com.alibaba.nacos.common.remote.client   : [0653b30f-d7f3-4871-b44a-c72e715b96ee] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+13:46:09:521  INFO 27244 --- [main] com.alibaba.nacos.common.remote.client   : [0653b30f-d7f3-4871-b44a-c72e715b96ee] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+13:46:09:649  INFO 27244 --- [main] com.alibaba.nacos.common.remote.client   : [0653b30f-d7f3-4871-b44a-c72e715b96ee] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1765863969528_172.18.0.1_38953
+13:46:09:649  INFO 27244 --- [main] com.alibaba.nacos.common.remote.client   : [0653b30f-d7f3-4871-b44a-c72e715b96ee] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+13:46:09:649  INFO 27244 --- [main] com.alibaba.nacos.common.remote.client   : [0653b30f-d7f3-4871-b44a-c72e715b96ee] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$468/0x00000008003f3040
+13:46:09:649  INFO 27244 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [0653b30f-d7f3-4871-b44a-c72e715b96ee] Notify connected event to listeners.
+13:46:09:923  INFO 27244 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080
+13:46:10:177  INFO 27244 --- [nacos-grpc-client-executor-5] com.alibaba.nacos.common.remote.client   : [0653b30f-d7f3-4871-b44a-c72e715b96ee] Receive server push request, request = NotifySubscriberRequest, requestId = 92
+13:46:10:185  INFO 27244 --- [nacos-grpc-client-executor-5] com.alibaba.nacos.common.remote.client   : [0653b30f-d7f3-4871-b44a-c72e715b96ee] Ack server push request, request = NotifySubscriberRequest, requestId = 92
+13:46:10:373  INFO 27244 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP hm-gateway 192.168.1.107:8080 register finished
+13:46:10:383  INFO 27244 --- [main] com.hmall.gateway.GatewaApplication      : Started GatewaApplication in 4.552 seconds (JVM running for 5.886)
+13:46:10:385  INFO 27244 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateway-local.yaml, group=DEFAULT_GROUP
+13:46:10:385  INFO 27244 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateway, group=DEFAULT_GROUP
+13:46:10:385  INFO 27244 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateway.yaml, group=DEFAULT_GROUP
+13:46:10:872  INFO 27244 --- [nacos-grpc-client-executor-8] com.alibaba.nacos.common.remote.client   : [0653b30f-d7f3-4871-b44a-c72e715b96ee] Receive server push request, request = NotifySubscriberRequest, requestId = 93
+13:46:10:879  INFO 27244 --- [nacos-grpc-client-executor-8] com.alibaba.nacos.common.remote.client   : [0653b30f-d7f3-4871-b44a-c72e715b96ee] Ack server push request, request = NotifySubscriberRequest, requestId = 93
+13:46:16:166  WARN 27244 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+13:46:16:167  WARN 27244 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+13:46:16:167  WARN 27244 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+13:46:16:167  WARN 27244 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+13:46:16:180  INFO 27244 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+13:46:16:185  INFO 27244 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+13:46:16:778  INFO 27244 --- [nacos-grpc-client-executor-11] com.alibaba.nacos.common.remote.client   : [0653b30f-d7f3-4871-b44a-c72e715b96ee] Receive server push request, request = NotifySubscriberRequest, requestId = 94
+13:46:16:788  INFO 27244 --- [nacos-grpc-client-executor-11] com.alibaba.nacos.common.remote.client   : [0653b30f-d7f3-4871-b44a-c72e715b96ee] Ack server push request, request = NotifySubscriberRequest, requestId = 94
+13:46:16:843  INFO 27244 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+13:46:16:844  INFO 27244 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@1d0d3bcf[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+13:46:16:844  INFO 27244 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1765863969528_172.18.0.1_38953
+13:46:16:846  INFO 27244 --- [SpringApplicationShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@6218df29[Running, pool size = 12, active threads = 0, queued tasks = 0, completed tasks = 12]
+13:46:34:784  INFO 5704 --- [main] com.hmall.gateway.GatewaApplication      : The following 1 profile is active: "local"
+13:46:35:008  INFO 5704 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=005c83c3-31e9-3b08-aa29-0a465f17c176
+13:46:35:032  INFO 5704 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:46:35:032  INFO 5704 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:46:35:033  INFO 5704 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:46:35:873  INFO 5704 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+13:46:35:873  INFO 5704 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+13:46:35:873  INFO 5704 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+13:46:35:873  INFO 5704 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+13:46:35:873  INFO 5704 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+13:46:35:873  INFO 5704 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+13:46:35:873  INFO 5704 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+13:46:35:873  INFO 5704 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+13:46:35:873  INFO 5704 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+13:46:35:873  INFO 5704 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+13:46:35:873  INFO 5704 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+13:46:35:873  INFO 5704 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+13:46:35:873  INFO 5704 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+13:46:35:873  INFO 5704 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+13:46:36:212  INFO 5704 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of a6092928-1cfd-4862-999b-28596883a22a
+13:46:36:212  INFO 5704 --- [main] com.alibaba.nacos.common.remote.client   : [a6092928-1cfd-4862-999b-28596883a22a] RpcClient init label, labels = {module=naming, source=sdk}
+13:46:36:212  INFO 5704 --- [main] com.alibaba.nacos.common.remote.client   : [a6092928-1cfd-4862-999b-28596883a22a] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+13:46:36:212  INFO 5704 --- [main] com.alibaba.nacos.common.remote.client   : [a6092928-1cfd-4862-999b-28596883a22a] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+13:46:36:213  INFO 5704 --- [main] com.alibaba.nacos.common.remote.client   : [a6092928-1cfd-4862-999b-28596883a22a] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+13:46:36:213  INFO 5704 --- [main] com.alibaba.nacos.common.remote.client   : [a6092928-1cfd-4862-999b-28596883a22a] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+13:46:36:335  INFO 5704 --- [main] com.alibaba.nacos.common.remote.client   : [a6092928-1cfd-4862-999b-28596883a22a] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1765863996226_172.18.0.1_40613
+13:46:36:335  INFO 5704 --- [main] com.alibaba.nacos.common.remote.client   : [a6092928-1cfd-4862-999b-28596883a22a] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+13:46:36:335  INFO 5704 --- [main] com.alibaba.nacos.common.remote.client   : [a6092928-1cfd-4862-999b-28596883a22a] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$468/0x00000008003f3040
+13:46:36:335  INFO 5704 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [a6092928-1cfd-4862-999b-28596883a22a] Notify connected event to listeners.
+13:46:36:551  INFO 5704 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080
+13:46:36:905  INFO 5704 --- [nacos-grpc-client-executor-4] com.alibaba.nacos.common.remote.client   : [a6092928-1cfd-4862-999b-28596883a22a] Receive server push request, request = NotifySubscriberRequest, requestId = 95
+13:46:36:912  INFO 5704 --- [nacos-grpc-client-executor-4] com.alibaba.nacos.common.remote.client   : [a6092928-1cfd-4862-999b-28596883a22a] Ack server push request, request = NotifySubscriberRequest, requestId = 95
+13:46:36:962  INFO 5704 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP hm-gateway 192.168.1.107:8080 register finished
+13:46:36:971  INFO 5704 --- [main] com.hmall.gateway.GatewaApplication      : Started GatewaApplication in 3.944 seconds (JVM running for 4.482)
+13:46:36:973  INFO 5704 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateway-local.yaml, group=DEFAULT_GROUP
+13:46:36:973  INFO 5704 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateway, group=DEFAULT_GROUP
+13:46:36:973  INFO 5704 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateway.yaml, group=DEFAULT_GROUP
+13:46:37:500  INFO 5704 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [a6092928-1cfd-4862-999b-28596883a22a] Receive server push request, request = NotifySubscriberRequest, requestId = 96
+13:46:37:509  INFO 5704 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [a6092928-1cfd-4862-999b-28596883a22a] Ack server push request, request = NotifySubscriberRequest, requestId = 96
+13:46:51:014  INFO 5704 --- [nacos-grpc-client-executor-12] com.alibaba.nacos.common.remote.client   : [a6092928-1cfd-4862-999b-28596883a22a] Receive server push request, request = NotifySubscriberRequest, requestId = 97
+13:46:51:014  INFO 5704 --- [nacos-grpc-client-executor-12] com.alibaba.nacos.common.remote.client   : [a6092928-1cfd-4862-999b-28596883a22a] Ack server push request, request = NotifySubscriberRequest, requestId = 97
+13:46:58:422  INFO 5704 --- [nacos-grpc-client-executor-16] com.alibaba.nacos.common.remote.client   : [a6092928-1cfd-4862-999b-28596883a22a] Receive server push request, request = NotifySubscriberRequest, requestId = 98
+13:46:58:422  INFO 5704 --- [nacos-grpc-client-executor-16] com.alibaba.nacos.common.remote.client   : [a6092928-1cfd-4862-999b-28596883a22a] Ack server push request, request = NotifySubscriberRequest, requestId = 98
+13:46:58:921  INFO 5704 --- [nacos-grpc-client-executor-17] com.alibaba.nacos.common.remote.client   : [a6092928-1cfd-4862-999b-28596883a22a] Receive server push request, request = NotifySubscriberRequest, requestId = 99
+13:46:58:921  INFO 5704 --- [nacos-grpc-client-executor-17] com.alibaba.nacos.common.remote.client   : [a6092928-1cfd-4862-999b-28596883a22a] Ack server push request, request = NotifySubscriberRequest, requestId = 99
+13:47:25:549  INFO 5704 --- [nacos-grpc-client-executor-24] com.alibaba.nacos.common.remote.client   : [a6092928-1cfd-4862-999b-28596883a22a] Receive server push request, request = NotifySubscriberRequest, requestId = 101
+13:47:25:557  INFO 5704 --- [nacos-grpc-client-executor-24] com.alibaba.nacos.common.remote.client   : [a6092928-1cfd-4862-999b-28596883a22a] Ack server push request, request = NotifySubscriberRequest, requestId = 101
+13:47:31:457  INFO 5704 --- [nacos-grpc-client-executor-26] com.alibaba.nacos.common.remote.client   : [a6092928-1cfd-4862-999b-28596883a22a] Receive server push request, request = NotifySubscriberRequest, requestId = 102
+13:47:31:466  INFO 5704 --- [nacos-grpc-client-executor-26] com.alibaba.nacos.common.remote.client   : [a6092928-1cfd-4862-999b-28596883a22a] Ack server push request, request = NotifySubscriberRequest, requestId = 102
+13:49:05:158  INFO 5704 --- [nacos-grpc-client-executor-45] com.alibaba.nacos.common.remote.client   : [a6092928-1cfd-4862-999b-28596883a22a] Receive server push request, request = NotifySubscriberRequest, requestId = 105
+13:49:05:166  INFO 5704 --- [nacos-grpc-client-executor-45] com.alibaba.nacos.common.remote.client   : [a6092928-1cfd-4862-999b-28596883a22a] Ack server push request, request = NotifySubscriberRequest, requestId = 105
+13:49:11:465  INFO 5704 --- [nacos-grpc-client-executor-46] com.alibaba.nacos.common.remote.client   : [a6092928-1cfd-4862-999b-28596883a22a] Receive server push request, request = NotifySubscriberRequest, requestId = 106
+13:49:11:473  INFO 5704 --- [nacos-grpc-client-executor-46] com.alibaba.nacos.common.remote.client   : [a6092928-1cfd-4862-999b-28596883a22a] Ack server push request, request = NotifySubscriberRequest, requestId = 106
+13:53:02:723  INFO 5704 --- [nacos-grpc-client-executor-96] com.alibaba.nacos.common.remote.client   : [a6092928-1cfd-4862-999b-28596883a22a] Receive server push request, request = NotifySubscriberRequest, requestId = 109
+13:53:02:732  INFO 5704 --- [nacos-grpc-client-executor-96] com.alibaba.nacos.common.remote.client   : [a6092928-1cfd-4862-999b-28596883a22a] Ack server push request, request = NotifySubscriberRequest, requestId = 109
+13:53:08:932  INFO 5704 --- [nacos-grpc-client-executor-97] com.alibaba.nacos.common.remote.client   : [a6092928-1cfd-4862-999b-28596883a22a] Receive server push request, request = NotifySubscriberRequest, requestId = 110
+13:53:08:940  INFO 5704 --- [nacos-grpc-client-executor-97] com.alibaba.nacos.common.remote.client   : [a6092928-1cfd-4862-999b-28596883a22a] Ack server push request, request = NotifySubscriberRequest, requestId = 110
+14:31:35:106  INFO 5704 --- [nacos-grpc-client-executor-591] com.alibaba.nacos.common.remote.client   : [a6092928-1cfd-4862-999b-28596883a22a] Receive server push request, request = NotifySubscriberRequest, requestId = 113
+14:31:35:115  INFO 5704 --- [nacos-grpc-client-executor-591] com.alibaba.nacos.common.remote.client   : [a6092928-1cfd-4862-999b-28596883a22a] Ack server push request, request = NotifySubscriberRequest, requestId = 113
+14:31:36:504  INFO 5704 --- [nacos-grpc-client-executor-592] com.alibaba.nacos.common.remote.client   : [a6092928-1cfd-4862-999b-28596883a22a] Receive server push request, request = NotifySubscriberRequest, requestId = 115
+14:31:36:516  INFO 5704 --- [nacos-grpc-client-executor-592] com.alibaba.nacos.common.remote.client   : [a6092928-1cfd-4862-999b-28596883a22a] Ack server push request, request = NotifySubscriberRequest, requestId = 115
+14:31:43:210  INFO 5704 --- [nacos-grpc-client-executor-594] com.alibaba.nacos.common.remote.client   : [a6092928-1cfd-4862-999b-28596883a22a] Receive server push request, request = NotifySubscriberRequest, requestId = 116
+14:31:43:219  INFO 5704 --- [nacos-grpc-client-executor-594] com.alibaba.nacos.common.remote.client   : [a6092928-1cfd-4862-999b-28596883a22a] Ack server push request, request = NotifySubscriberRequest, requestId = 116
+14:31:44:712  INFO 5704 --- [nacos-grpc-client-executor-595] com.alibaba.nacos.common.remote.client   : [a6092928-1cfd-4862-999b-28596883a22a] Receive server push request, request = NotifySubscriberRequest, requestId = 118
+14:31:44:721  INFO 5704 --- [nacos-grpc-client-executor-595] com.alibaba.nacos.common.remote.client   : [a6092928-1cfd-4862-999b-28596883a22a] Ack server push request, request = NotifySubscriberRequest, requestId = 118
+14:35:49:193  INFO 5704 --- [nacos-grpc-client-executor-647] com.alibaba.nacos.common.remote.client   : [a6092928-1cfd-4862-999b-28596883a22a] Receive server push request, request = NotifySubscriberRequest, requestId = 121
+14:35:49:201  INFO 5704 --- [nacos-grpc-client-executor-647] com.alibaba.nacos.common.remote.client   : [a6092928-1cfd-4862-999b-28596883a22a] Ack server push request, request = NotifySubscriberRequest, requestId = 121
+14:35:55:700  INFO 5704 --- [nacos-grpc-client-executor-649] com.alibaba.nacos.common.remote.client   : [a6092928-1cfd-4862-999b-28596883a22a] Receive server push request, request = NotifySubscriberRequest, requestId = 122
+14:35:55:708  INFO 5704 --- [nacos-grpc-client-executor-649] com.alibaba.nacos.common.remote.client   : [a6092928-1cfd-4862-999b-28596883a22a] Ack server push request, request = NotifySubscriberRequest, requestId = 122
+14:59:57:365  INFO 5704 --- [nacos-grpc-client-executor-960] com.alibaba.nacos.common.remote.client   : [a6092928-1cfd-4862-999b-28596883a22a] Receive server push request, request = NotifySubscriberRequest, requestId = 125
+14:59:57:374  INFO 5704 --- [nacos-grpc-client-executor-960] com.alibaba.nacos.common.remote.client   : [a6092928-1cfd-4862-999b-28596883a22a] Ack server push request, request = NotifySubscriberRequest, requestId = 125
+15:00:05:876  INFO 5704 --- [nacos-grpc-client-executor-963] com.alibaba.nacos.common.remote.client   : [a6092928-1cfd-4862-999b-28596883a22a] Receive server push request, request = NotifySubscriberRequest, requestId = 127
+15:00:05:884  INFO 5704 --- [nacos-grpc-client-executor-963] com.alibaba.nacos.common.remote.client   : [a6092928-1cfd-4862-999b-28596883a22a] Ack server push request, request = NotifySubscriberRequest, requestId = 127
+15:00:57:834  INFO 5704 --- [nacos-grpc-client-executor-973] com.alibaba.nacos.common.remote.client   : [a6092928-1cfd-4862-999b-28596883a22a] Receive server push request, request = NotifySubscriberRequest, requestId = 130
+15:00:57:842  INFO 5704 --- [nacos-grpc-client-executor-973] com.alibaba.nacos.common.remote.client   : [a6092928-1cfd-4862-999b-28596883a22a] Ack server push request, request = NotifySubscriberRequest, requestId = 130
+15:02:24:228  INFO 5704 --- [nacos-grpc-client-executor-993] com.alibaba.nacos.common.remote.client   : [a6092928-1cfd-4862-999b-28596883a22a] Receive server push request, request = NotifySubscriberRequest, requestId = 132
+15:02:24:236  INFO 5704 --- [nacos-grpc-client-executor-993] com.alibaba.nacos.common.remote.client   : [a6092928-1cfd-4862-999b-28596883a22a] Ack server push request, request = NotifySubscriberRequest, requestId = 132
+15:32:07:489  INFO 5704 --- [nacos-grpc-client-executor-1376] com.alibaba.nacos.common.remote.client   : [a6092928-1cfd-4862-999b-28596883a22a] Receive server push request, request = NotifySubscriberRequest, requestId = 135
+15:32:07:497  INFO 5704 --- [nacos-grpc-client-executor-1376] com.alibaba.nacos.common.remote.client   : [a6092928-1cfd-4862-999b-28596883a22a] Ack server push request, request = NotifySubscriberRequest, requestId = 135
+15:32:16:199  INFO 5704 --- [nacos-grpc-client-executor-1378] com.alibaba.nacos.common.remote.client   : [a6092928-1cfd-4862-999b-28596883a22a] Receive server push request, request = NotifySubscriberRequest, requestId = 137
+15:32:16:210  INFO 5704 --- [nacos-grpc-client-executor-1378] com.alibaba.nacos.common.remote.client   : [a6092928-1cfd-4862-999b-28596883a22a] Ack server push request, request = NotifySubscriberRequest, requestId = 137
+15:36:03:545  INFO 5704 --- [nacos-grpc-client-executor-1428] com.alibaba.nacos.common.remote.client   : [a6092928-1cfd-4862-999b-28596883a22a] Receive server push request, request = NotifySubscriberRequest, requestId = 140
+15:36:03:547  INFO 5704 --- [nacos-grpc-client-executor-1428] com.alibaba.nacos.common.remote.client   : [a6092928-1cfd-4862-999b-28596883a22a] Ack server push request, request = NotifySubscriberRequest, requestId = 140
+15:36:09:752  INFO 5704 --- [nacos-grpc-client-executor-1430] com.alibaba.nacos.common.remote.client   : [a6092928-1cfd-4862-999b-28596883a22a] Receive server push request, request = NotifySubscriberRequest, requestId = 141
+15:36:09:760  INFO 5704 --- [nacos-grpc-client-executor-1430] com.alibaba.nacos.common.remote.client   : [a6092928-1cfd-4862-999b-28596883a22a] Ack server push request, request = NotifySubscriberRequest, requestId = 141
+15:38:17:323  WARN 5704 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+15:38:17:323  WARN 5704 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+15:38:17:323  WARN 5704 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+15:38:17:324  WARN 5704 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+15:38:17:339  INFO 5704 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+15:38:17:341  INFO 5704 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+15:38:17:675  INFO 5704 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+15:38:17:675  INFO 5704 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@4c2597da[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+15:38:17:676  INFO 5704 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1765863996226_172.18.0.1_40613
+15:38:17:678  INFO 5704 --- [nacos-grpc-client-executor-1458] c.a.n.c.remote.client.grpc.GrpcClient    : [1765863996226_172.18.0.1_40613]Ignore complete event,isRunning:false,isAbandon=false
+15:38:17:679  INFO 5704 --- [SpringApplicationShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@555d80fa[Running, pool size = 5, active threads = 0, queued tasks = 0, completed tasks = 1459]
+15:38:29:341  INFO 48388 --- [main] com.hmall.gateway.GatewaApplication      : The following 1 profile is active: "local"
+15:38:29:700  INFO 48388 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=005c83c3-31e9-3b08-aa29-0a465f17c176
+15:38:29:739  INFO 48388 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:38:29:740  INFO 48388 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:38:29:741  INFO 48388 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:38:31:071  INFO 48388 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+15:38:31:071  INFO 48388 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+15:38:31:072  INFO 48388 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+15:38:31:072  INFO 48388 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+15:38:31:072  INFO 48388 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+15:38:31:072  INFO 48388 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+15:38:31:072  INFO 48388 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+15:38:31:072  INFO 48388 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+15:38:31:072  INFO 48388 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+15:38:31:072  INFO 48388 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+15:38:31:072  INFO 48388 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+15:38:31:072  INFO 48388 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+15:38:31:072  INFO 48388 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+15:38:31:072  INFO 48388 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+15:38:31:576  INFO 48388 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 442d157a-c785-4ed5-b552-429779205cd5
+15:38:31:576  INFO 48388 --- [main] com.alibaba.nacos.common.remote.client   : [442d157a-c785-4ed5-b552-429779205cd5] RpcClient init label, labels = {module=naming, source=sdk}
+15:38:31:577  INFO 48388 --- [main] com.alibaba.nacos.common.remote.client   : [442d157a-c785-4ed5-b552-429779205cd5] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+15:38:31:577  INFO 48388 --- [main] com.alibaba.nacos.common.remote.client   : [442d157a-c785-4ed5-b552-429779205cd5] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+15:38:31:577  INFO 48388 --- [main] com.alibaba.nacos.common.remote.client   : [442d157a-c785-4ed5-b552-429779205cd5] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+15:38:31:578  INFO 48388 --- [main] com.alibaba.nacos.common.remote.client   : [442d157a-c785-4ed5-b552-429779205cd5] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+15:38:31:693  INFO 48388 --- [main] com.alibaba.nacos.common.remote.client   : [442d157a-c785-4ed5-b552-429779205cd5] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1765870711584_172.18.0.1_41665
+15:38:31:693  INFO 48388 --- [main] com.alibaba.nacos.common.remote.client   : [442d157a-c785-4ed5-b552-429779205cd5] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+15:38:31:693  INFO 48388 --- [main] com.alibaba.nacos.common.remote.client   : [442d157a-c785-4ed5-b552-429779205cd5] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$468/0x00000008003f3040
+15:38:31:693  INFO 48388 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [442d157a-c785-4ed5-b552-429779205cd5] Notify connected event to listeners.
+15:38:31:964  INFO 48388 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080
+15:38:32:221  INFO 48388 --- [nacos-grpc-client-executor-4] com.alibaba.nacos.common.remote.client   : [442d157a-c785-4ed5-b552-429779205cd5] Receive server push request, request = NotifySubscriberRequest, requestId = 145
+15:38:32:230  INFO 48388 --- [nacos-grpc-client-executor-4] com.alibaba.nacos.common.remote.client   : [442d157a-c785-4ed5-b552-429779205cd5] Ack server push request, request = NotifySubscriberRequest, requestId = 145
+15:38:32:461  INFO 48388 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP hm-gateway 192.168.1.107:8080 register finished
+15:38:32:471  INFO 48388 --- [main] com.hmall.gateway.GatewaApplication      : Started GatewaApplication in 5.687 seconds (JVM running for 6.436)
+15:38:32:473  INFO 48388 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateway-local.yaml, group=DEFAULT_GROUP
+15:38:32:474  INFO 48388 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateway, group=DEFAULT_GROUP
+15:38:32:474  INFO 48388 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateway.yaml, group=DEFAULT_GROUP
+15:38:33:017  INFO 48388 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [442d157a-c785-4ed5-b552-429779205cd5] Receive server push request, request = NotifySubscriberRequest, requestId = 147
+15:38:33:025  INFO 48388 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [442d157a-c785-4ed5-b552-429779205cd5] Ack server push request, request = NotifySubscriberRequest, requestId = 147
+15:38:47:735  INFO 48388 --- [nacos-grpc-client-executor-12] com.alibaba.nacos.common.remote.client   : [442d157a-c785-4ed5-b552-429779205cd5] Receive server push request, request = NotifySubscriberRequest, requestId = 150
+15:38:47:735  INFO 48388 --- [nacos-grpc-client-executor-12] com.alibaba.nacos.common.remote.client   : [442d157a-c785-4ed5-b552-429779205cd5] Ack server push request, request = NotifySubscriberRequest, requestId = 150
+15:38:48:434  INFO 48388 --- [nacos-grpc-client-executor-15] com.alibaba.nacos.common.remote.client   : [442d157a-c785-4ed5-b552-429779205cd5] Receive server push request, request = NotifySubscriberRequest, requestId = 151
+15:38:48:436  INFO 48388 --- [nacos-grpc-client-executor-15] com.alibaba.nacos.common.remote.client   : [442d157a-c785-4ed5-b552-429779205cd5] Ack server push request, request = NotifySubscriberRequest, requestId = 151
+15:39:16:965  INFO 48388 --- [nacos-grpc-client-executor-22] com.alibaba.nacos.common.remote.client   : [442d157a-c785-4ed5-b552-429779205cd5] Receive server push request, request = NotifySubscriberRequest, requestId = 153
+15:39:16:975  INFO 48388 --- [nacos-grpc-client-executor-22] com.alibaba.nacos.common.remote.client   : [442d157a-c785-4ed5-b552-429779205cd5] Ack server push request, request = NotifySubscriberRequest, requestId = 153
+15:39:22:972  INFO 48388 --- [nacos-grpc-client-executor-23] com.alibaba.nacos.common.remote.client   : [442d157a-c785-4ed5-b552-429779205cd5] Receive server push request, request = NotifySubscriberRequest, requestId = 155
+15:39:22:982  INFO 48388 --- [nacos-grpc-client-executor-23] com.alibaba.nacos.common.remote.client   : [442d157a-c785-4ed5-b552-429779205cd5] Ack server push request, request = NotifySubscriberRequest, requestId = 155
+15:39:45:596  INFO 48388 --- [nacos-grpc-client-executor-27] com.alibaba.nacos.common.remote.client   : [442d157a-c785-4ed5-b552-429779205cd5] Receive server push request, request = NotifySubscriberRequest, requestId = 158
+15:39:45:605  INFO 48388 --- [nacos-grpc-client-executor-27] com.alibaba.nacos.common.remote.client   : [442d157a-c785-4ed5-b552-429779205cd5] Ack server push request, request = NotifySubscriberRequest, requestId = 158
+15:39:51:804  INFO 48388 --- [nacos-grpc-client-executor-30] com.alibaba.nacos.common.remote.client   : [442d157a-c785-4ed5-b552-429779205cd5] Receive server push request, request = NotifySubscriberRequest, requestId = 159
+15:39:51:812  INFO 48388 --- [nacos-grpc-client-executor-30] com.alibaba.nacos.common.remote.client   : [442d157a-c785-4ed5-b552-429779205cd5] Ack server push request, request = NotifySubscriberRequest, requestId = 159
+15:40:46:065  INFO 48388 --- [nacos-grpc-client-executor-40] com.alibaba.nacos.common.remote.client   : [442d157a-c785-4ed5-b552-429779205cd5] Receive server push request, request = NotifySubscriberRequest, requestId = 162
+15:40:46:074  INFO 48388 --- [nacos-grpc-client-executor-40] com.alibaba.nacos.common.remote.client   : [442d157a-c785-4ed5-b552-429779205cd5] Ack server push request, request = NotifySubscriberRequest, requestId = 162
+15:40:50:709  WARN 48388 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+15:40:50:709  WARN 48388 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+15:40:50:709  WARN 48388 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+15:40:50:710  WARN 48388 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+15:40:50:721  INFO 48388 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+15:40:50:725  INFO 48388 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+15:40:51:047  INFO 48388 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+15:40:51:047  INFO 48388 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@649181b6[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+15:40:51:047  INFO 48388 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1765870711584_172.18.0.1_41665
+15:40:51:049  INFO 48388 --- [nacos-grpc-client-executor-44] c.a.n.c.remote.client.grpc.GrpcClient    : [1765870711584_172.18.0.1_41665]Ignore complete event,isRunning:false,isAbandon=false
+15:40:51:049  INFO 48388 --- [SpringApplicationShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@fcdf0f5[Running, pool size = 6, active threads = 0, queued tasks = 0, completed tasks = 45]
+15:41:02:156  INFO 38348 --- [main] com.hmall.gateway.GatewaApplication      : The following 1 profile is active: "local"
+15:41:02:446  INFO 38348 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=005c83c3-31e9-3b08-aa29-0a465f17c176
+15:41:02:471  INFO 38348 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:41:02:471  INFO 38348 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:41:02:472  INFO 38348 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:41:03:394  INFO 38348 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+15:41:03:394  INFO 38348 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+15:41:03:394  INFO 38348 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+15:41:03:394  INFO 38348 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+15:41:03:394  INFO 38348 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+15:41:03:394  INFO 38348 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+15:41:03:394  INFO 38348 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+15:41:03:394  INFO 38348 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+15:41:03:394  INFO 38348 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+15:41:03:394  INFO 38348 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+15:41:03:394  INFO 38348 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+15:41:03:394  INFO 38348 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+15:41:03:394  INFO 38348 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+15:41:03:394  INFO 38348 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+15:41:03:764  INFO 38348 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of a386373b-5940-4346-8e04-a819c7f01206
+15:41:03:765  INFO 38348 --- [main] com.alibaba.nacos.common.remote.client   : [a386373b-5940-4346-8e04-a819c7f01206] RpcClient init label, labels = {module=naming, source=sdk}
+15:41:03:765  INFO 38348 --- [main] com.alibaba.nacos.common.remote.client   : [a386373b-5940-4346-8e04-a819c7f01206] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+15:41:03:765  INFO 38348 --- [main] com.alibaba.nacos.common.remote.client   : [a386373b-5940-4346-8e04-a819c7f01206] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+15:41:03:766  INFO 38348 --- [main] com.alibaba.nacos.common.remote.client   : [a386373b-5940-4346-8e04-a819c7f01206] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+15:41:03:766  INFO 38348 --- [main] com.alibaba.nacos.common.remote.client   : [a386373b-5940-4346-8e04-a819c7f01206] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+15:41:03:879  INFO 38348 --- [main] com.alibaba.nacos.common.remote.client   : [a386373b-5940-4346-8e04-a819c7f01206] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1765870863772_172.18.0.1_41465
+15:41:03:879  INFO 38348 --- [main] com.alibaba.nacos.common.remote.client   : [a386373b-5940-4346-8e04-a819c7f01206] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+15:41:03:879  INFO 38348 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [a386373b-5940-4346-8e04-a819c7f01206] Notify connected event to listeners.
+15:41:03:879  INFO 38348 --- [main] com.alibaba.nacos.common.remote.client   : [a386373b-5940-4346-8e04-a819c7f01206] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$468/0x00000008003f3440
+15:41:04:100  INFO 38348 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080
+15:41:04:393  INFO 38348 --- [nacos-grpc-client-executor-4] com.alibaba.nacos.common.remote.client   : [a386373b-5940-4346-8e04-a819c7f01206] Receive server push request, request = NotifySubscriberRequest, requestId = 168
+15:41:04:404  INFO 38348 --- [nacos-grpc-client-executor-4] com.alibaba.nacos.common.remote.client   : [a386373b-5940-4346-8e04-a819c7f01206] Ack server push request, request = NotifySubscriberRequest, requestId = 168
+15:41:04:512  INFO 38348 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP hm-gateway 192.168.1.107:8080 register finished
+15:41:04:520  INFO 38348 --- [main] com.hmall.gateway.GatewaApplication      : Started GatewaApplication in 4.659 seconds (JVM running for 5.386)
+15:41:04:522  INFO 38348 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateway-local.yaml, group=DEFAULT_GROUP
+15:41:04:522  INFO 38348 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateway, group=DEFAULT_GROUP
+15:41:04:522  INFO 38348 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateway.yaml, group=DEFAULT_GROUP
+15:41:05:089  INFO 38348 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [a386373b-5940-4346-8e04-a819c7f01206] Receive server push request, request = NotifySubscriberRequest, requestId = 169
+15:41:05:098  INFO 38348 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [a386373b-5940-4346-8e04-a819c7f01206] Ack server push request, request = NotifySubscriberRequest, requestId = 169
+15:41:23:595 ERROR 38348 --- [boundedElastic-1] com.alibaba.nacos.common.remote.client   : Send request fail, request = SubscribeServiceRequest{headers={}, requestId='null'}, retryTimes = 0, errorMessage = java.lang.InterruptedException
+15:41:24:111  INFO 38348 --- [nacos-grpc-client-executor-13] com.alibaba.nacos.common.remote.client   : [a386373b-5940-4346-8e04-a819c7f01206] Receive server push request, request = NotifySubscriberRequest, requestId = 170
+15:41:24:111  INFO 38348 --- [nacos-grpc-client-executor-13] com.alibaba.nacos.common.remote.client   : [a386373b-5940-4346-8e04-a819c7f01206] Ack server push request, request = NotifySubscriberRequest, requestId = 170
+16:09:58:393  INFO 38348 --- [nacos-grpc-client-executor-358] com.alibaba.nacos.common.remote.client   : [a386373b-5940-4346-8e04-a819c7f01206] Receive server push request, request = NotifySubscriberRequest, requestId = 181
+16:09:58:393  INFO 38348 --- [nacos-grpc-client-executor-358] com.alibaba.nacos.common.remote.client   : [a386373b-5940-4346-8e04-a819c7f01206] Ack server push request, request = NotifySubscriberRequest, requestId = 181
+18:50:02:467  WARN 38348 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+18:50:02:467  WARN 38348 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+18:50:02:469  WARN 38348 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+18:50:02:470  WARN 38348 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+18:50:02:487  INFO 38348 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+18:50:02:491  INFO 38348 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+18:50:02:819  INFO 38348 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+18:50:02:820  INFO 38348 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@3a393538[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+18:50:02:820  INFO 38348 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1765870863772_172.18.0.1_41465
+18:50:02:822  INFO 38348 --- [nacos-grpc-client-executor-2278] c.a.n.c.remote.client.grpc.GrpcClient    : [1765870863772_172.18.0.1_41465]Ignore complete event,isRunning:false,isAbandon=false
+18:50:02:823  INFO 38348 --- [SpringApplicationShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@67d9d02[Running, pool size = 5, active threads = 0, queued tasks = 0, completed tasks = 2279]
+18:50:10:614  INFO 52540 --- [main] com.hmall.gateway.GatewaApplication      : The following 1 profile is active: "local"
+18:50:10:990  INFO 52540 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=005c83c3-31e9-3b08-aa29-0a465f17c176
+18:50:11:027  INFO 52540 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:50:11:028  INFO 52540 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:50:11:029  INFO 52540 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:50:12:471  INFO 52540 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+18:50:12:471  INFO 52540 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+18:50:12:471  INFO 52540 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+18:50:12:471  INFO 52540 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+18:50:12:472  INFO 52540 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+18:50:12:472  INFO 52540 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+18:50:12:472  INFO 52540 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+18:50:12:472  INFO 52540 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+18:50:12:472  INFO 52540 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+18:50:12:472  INFO 52540 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+18:50:12:472  INFO 52540 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+18:50:12:472  INFO 52540 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+18:50:12:472  INFO 52540 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+18:50:12:472  INFO 52540 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+18:50:13:061  INFO 52540 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of c7433e90-af2c-4b48-9c10-f3c0f93f9a36
+18:50:13:061  INFO 52540 --- [main] com.alibaba.nacos.common.remote.client   : [c7433e90-af2c-4b48-9c10-f3c0f93f9a36] RpcClient init label, labels = {module=naming, source=sdk}
+18:50:13:063  INFO 52540 --- [main] com.alibaba.nacos.common.remote.client   : [c7433e90-af2c-4b48-9c10-f3c0f93f9a36] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+18:50:13:064  INFO 52540 --- [main] com.alibaba.nacos.common.remote.client   : [c7433e90-af2c-4b48-9c10-f3c0f93f9a36] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+18:50:13:064  INFO 52540 --- [main] com.alibaba.nacos.common.remote.client   : [c7433e90-af2c-4b48-9c10-f3c0f93f9a36] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+18:50:13:064  INFO 52540 --- [main] com.alibaba.nacos.common.remote.client   : [c7433e90-af2c-4b48-9c10-f3c0f93f9a36] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+18:50:13:192  INFO 52540 --- [main] com.alibaba.nacos.common.remote.client   : [c7433e90-af2c-4b48-9c10-f3c0f93f9a36] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1765882213073_172.18.0.1_39133
+18:50:13:192  INFO 52540 --- [main] com.alibaba.nacos.common.remote.client   : [c7433e90-af2c-4b48-9c10-f3c0f93f9a36] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+18:50:13:192  INFO 52540 --- [main] com.alibaba.nacos.common.remote.client   : [c7433e90-af2c-4b48-9c10-f3c0f93f9a36] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$468/0x00000008003f3040
+18:50:13:192  INFO 52540 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [c7433e90-af2c-4b48-9c10-f3c0f93f9a36] Notify connected event to listeners.
+18:50:13:548  INFO 52540 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080
+18:50:13:763  INFO 52540 --- [nacos-grpc-client-executor-4] com.alibaba.nacos.common.remote.client   : [c7433e90-af2c-4b48-9c10-f3c0f93f9a36] Receive server push request, request = NotifySubscriberRequest, requestId = 183
+18:50:13:774  INFO 52540 --- [nacos-grpc-client-executor-4] com.alibaba.nacos.common.remote.client   : [c7433e90-af2c-4b48-9c10-f3c0f93f9a36] Ack server push request, request = NotifySubscriberRequest, requestId = 183
+18:50:14:246  INFO 52540 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP hm-gateway 192.168.1.107:8080 register finished
+18:50:14:262  INFO 52540 --- [main] com.hmall.gateway.GatewaApplication      : Started GatewaApplication in 6.241 seconds (JVM running for 6.884)
+18:50:14:265  INFO 52540 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateway-local.yaml, group=DEFAULT_GROUP
+18:50:14:266  INFO 52540 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateway, group=DEFAULT_GROUP
+18:50:14:266  INFO 52540 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateway.yaml, group=DEFAULT_GROUP
+18:50:14:753  INFO 52540 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [c7433e90-af2c-4b48-9c10-f3c0f93f9a36] Receive server push request, request = NotifySubscriberRequest, requestId = 184
+18:50:14:769  INFO 52540 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [c7433e90-af2c-4b48-9c10-f3c0f93f9a36] Ack server push request, request = NotifySubscriberRequest, requestId = 184
+18:50:40:320  WARN 52540 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+18:50:40:320  WARN 52540 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+18:50:40:320  WARN 52540 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+18:50:40:321  WARN 52540 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+18:50:40:333  INFO 52540 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+18:50:40:338  INFO 52540 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+18:50:40:665  INFO 52540 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+18:50:40:665  INFO 52540 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@3012c29[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+18:50:40:665  INFO 52540 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1765882213073_172.18.0.1_39133
+18:50:40:667  INFO 52540 --- [nacos-grpc-client-executor-15] c.a.n.c.remote.client.grpc.GrpcClient    : [1765882213073_172.18.0.1_39133]Ignore complete event,isRunning:false,isAbandon=false
+18:50:40:667  INFO 52540 --- [SpringApplicationShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@7225b437[Running, pool size = 5, active threads = 0, queued tasks = 0, completed tasks = 16]
+18:51:51:270  INFO 32328 --- [main] com.hmall.gateway.GatewaApplication      : The following 1 profile is active: "local"
+18:51:51:699  INFO 32328 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=005c83c3-31e9-3b08-aa29-0a465f17c176
+18:51:51:737  INFO 32328 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:51:51:738  INFO 32328 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:51:51:739  INFO 32328 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:51:53:030  INFO 32328 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+18:51:53:030  INFO 32328 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+18:51:53:030  INFO 32328 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+18:51:53:030  INFO 32328 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+18:51:53:030  INFO 32328 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+18:51:53:030  INFO 32328 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+18:51:53:030  INFO 32328 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+18:51:53:030  INFO 32328 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+18:51:53:030  INFO 32328 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+18:51:53:030  INFO 32328 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+18:51:53:030  INFO 32328 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+18:51:53:030  INFO 32328 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+18:51:53:030  INFO 32328 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+18:51:53:031  INFO 32328 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+18:51:53:483  INFO 32328 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 8c7fc62b-fd1c-4b6b-bf2e-8c0c8eb74b56
+18:51:53:483  INFO 32328 --- [main] com.alibaba.nacos.common.remote.client   : [8c7fc62b-fd1c-4b6b-bf2e-8c0c8eb74b56] RpcClient init label, labels = {module=naming, source=sdk}
+18:51:53:484  INFO 32328 --- [main] com.alibaba.nacos.common.remote.client   : [8c7fc62b-fd1c-4b6b-bf2e-8c0c8eb74b56] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+18:51:53:484  INFO 32328 --- [main] com.alibaba.nacos.common.remote.client   : [8c7fc62b-fd1c-4b6b-bf2e-8c0c8eb74b56] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+18:51:53:485  INFO 32328 --- [main] com.alibaba.nacos.common.remote.client   : [8c7fc62b-fd1c-4b6b-bf2e-8c0c8eb74b56] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+18:51:53:485  INFO 32328 --- [main] com.alibaba.nacos.common.remote.client   : [8c7fc62b-fd1c-4b6b-bf2e-8c0c8eb74b56] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+18:51:53:601  INFO 32328 --- [main] com.alibaba.nacos.common.remote.client   : [8c7fc62b-fd1c-4b6b-bf2e-8c0c8eb74b56] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1765882313493_172.18.0.1_39845
+18:51:53:601  INFO 32328 --- [main] com.alibaba.nacos.common.remote.client   : [8c7fc62b-fd1c-4b6b-bf2e-8c0c8eb74b56] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+18:51:53:601  INFO 32328 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [8c7fc62b-fd1c-4b6b-bf2e-8c0c8eb74b56] Notify connected event to listeners.
+18:51:53:601  INFO 32328 --- [main] com.alibaba.nacos.common.remote.client   : [8c7fc62b-fd1c-4b6b-bf2e-8c0c8eb74b56] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$468/0x00000008003f3040
+18:51:53:967  INFO 32328 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080
+18:51:54:183  INFO 32328 --- [nacos-grpc-client-executor-4] com.alibaba.nacos.common.remote.client   : [8c7fc62b-fd1c-4b6b-bf2e-8c0c8eb74b56] Receive server push request, request = NotifySubscriberRequest, requestId = 193
+18:51:54:192  INFO 32328 --- [nacos-grpc-client-executor-4] com.alibaba.nacos.common.remote.client   : [8c7fc62b-fd1c-4b6b-bf2e-8c0c8eb74b56] Ack server push request, request = NotifySubscriberRequest, requestId = 193
+18:51:54:579  INFO 32328 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP hm-gateway 192.168.1.107:8080 register finished
+18:51:54:596  INFO 32328 --- [main] com.hmall.gateway.GatewaApplication      : Started GatewaApplication in 5.87 seconds (JVM running for 6.653)
+18:51:54:599  INFO 32328 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateway-local.yaml, group=DEFAULT_GROUP
+18:51:54:600  INFO 32328 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateway, group=DEFAULT_GROUP
+18:51:54:600  INFO 32328 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateway.yaml, group=DEFAULT_GROUP
+18:51:55:176  INFO 32328 --- [nacos-grpc-client-executor-9] com.alibaba.nacos.common.remote.client   : [8c7fc62b-fd1c-4b6b-bf2e-8c0c8eb74b56] Receive server push request, request = NotifySubscriberRequest, requestId = 194
+18:51:55:187  INFO 32328 --- [nacos-grpc-client-executor-9] com.alibaba.nacos.common.remote.client   : [8c7fc62b-fd1c-4b6b-bf2e-8c0c8eb74b56] Ack server push request, request = NotifySubscriberRequest, requestId = 194
+18:54:52:712  WARN 32328 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+18:54:52:712  WARN 32328 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+18:54:52:712  WARN 32328 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+18:54:52:713  WARN 32328 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+18:54:52:725  INFO 32328 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+18:54:52:729  INFO 32328 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+18:54:53:059  INFO 32328 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+18:54:53:059  INFO 32328 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@208acfdc[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+18:54:53:059  INFO 32328 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1765882313493_172.18.0.1_39845
+18:54:53:061  INFO 32328 --- [SpringApplicationShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@1b508989[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 46]
+18:55:05:249  INFO 53456 --- [main] com.hmall.gateway.GatewaApplication      : The following 1 profile is active: "local"
+18:55:05:467  INFO 53456 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=005c83c3-31e9-3b08-aa29-0a465f17c176
+18:55:05:490  INFO 53456 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:55:05:491  INFO 53456 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:55:05:491  INFO 53456 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:55:06:321  INFO 53456 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+18:55:06:321  INFO 53456 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+18:55:06:321  INFO 53456 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+18:55:06:321  INFO 53456 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+18:55:06:321  INFO 53456 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+18:55:06:321  INFO 53456 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+18:55:06:321  INFO 53456 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+18:55:06:321  INFO 53456 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+18:55:06:321  INFO 53456 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+18:55:06:321  INFO 53456 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+18:55:06:321  INFO 53456 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+18:55:06:321  INFO 53456 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+18:55:06:321  INFO 53456 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+18:55:06:321  INFO 53456 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+18:55:06:764  INFO 53456 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of a995f0e3-68bb-4b69-b838-1bc399e3b983
+18:55:06:764  INFO 53456 --- [main] com.alibaba.nacos.common.remote.client   : [a995f0e3-68bb-4b69-b838-1bc399e3b983] RpcClient init label, labels = {module=naming, source=sdk}
+18:55:06:765  INFO 53456 --- [main] com.alibaba.nacos.common.remote.client   : [a995f0e3-68bb-4b69-b838-1bc399e3b983] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+18:55:06:765  INFO 53456 --- [main] com.alibaba.nacos.common.remote.client   : [a995f0e3-68bb-4b69-b838-1bc399e3b983] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+18:55:06:765  INFO 53456 --- [main] com.alibaba.nacos.common.remote.client   : [a995f0e3-68bb-4b69-b838-1bc399e3b983] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+18:55:06:765  INFO 53456 --- [main] com.alibaba.nacos.common.remote.client   : [a995f0e3-68bb-4b69-b838-1bc399e3b983] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+18:55:06:892  INFO 53456 --- [main] com.alibaba.nacos.common.remote.client   : [a995f0e3-68bb-4b69-b838-1bc399e3b983] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1765882506772_172.18.0.1_40517
+18:55:06:892  INFO 53456 --- [main] com.alibaba.nacos.common.remote.client   : [a995f0e3-68bb-4b69-b838-1bc399e3b983] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+18:55:06:892  INFO 53456 --- [main] com.alibaba.nacos.common.remote.client   : [a995f0e3-68bb-4b69-b838-1bc399e3b983] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$468/0x00000008003f3040
+18:55:06:892  INFO 53456 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [a995f0e3-68bb-4b69-b838-1bc399e3b983] Notify connected event to listeners.
+18:55:07:116  INFO 53456 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080
+18:55:07:477  INFO 53456 --- [nacos-grpc-client-executor-4] com.alibaba.nacos.common.remote.client   : [a995f0e3-68bb-4b69-b838-1bc399e3b983] Receive server push request, request = NotifySubscriberRequest, requestId = 204
+18:55:07:485  INFO 53456 --- [nacos-grpc-client-executor-4] com.alibaba.nacos.common.remote.client   : [a995f0e3-68bb-4b69-b838-1bc399e3b983] Ack server push request, request = NotifySubscriberRequest, requestId = 204
+18:55:07:536  INFO 53456 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP hm-gateway 192.168.1.107:8080 register finished
+18:55:07:544  INFO 53456 --- [main] com.hmall.gateway.GatewaApplication      : Started GatewaApplication in 4.211 seconds (JVM running for 4.858)
+18:55:07:546  INFO 53456 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateway-local.yaml, group=DEFAULT_GROUP
+18:55:07:547  INFO 53456 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateway, group=DEFAULT_GROUP
+18:55:07:547  INFO 53456 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateway.yaml, group=DEFAULT_GROUP
+18:55:08:073  INFO 53456 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [a995f0e3-68bb-4b69-b838-1bc399e3b983] Receive server push request, request = NotifySubscriberRequest, requestId = 205
+18:55:08:082  INFO 53456 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [a995f0e3-68bb-4b69-b838-1bc399e3b983] Ack server push request, request = NotifySubscriberRequest, requestId = 205
+19:44:51:434  WARN 53456 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+19:44:51:434  WARN 53456 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+19:44:51:435  WARN 53456 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+19:44:51:435  WARN 53456 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+19:44:51:447  INFO 53456 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+19:44:51:449  INFO 53456 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+19:44:51:773  INFO 53456 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+19:44:51:773  INFO 53456 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@68a85c0[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+19:44:51:773  INFO 53456 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1765882506772_172.18.0.1_40517
+19:44:51:775  INFO 53456 --- [nacos-grpc-client-executor-606] c.a.n.c.remote.client.grpc.GrpcClient    : [1765882506772_172.18.0.1_40517]Ignore complete event,isRunning:false,isAbandon=false
+19:44:51:776  INFO 53456 --- [SpringApplicationShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@63fc1b13[Running, pool size = 5, active threads = 0, queued tasks = 0, completed tasks = 607]
+19:45:01:734  INFO 18128 --- [main] com.hmall.gateway.GatewaApplication      : The following 1 profile is active: "local"
+19:45:01:986  INFO 18128 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=005c83c3-31e9-3b08-aa29-0a465f17c176
+19:45:02:012  INFO 18128 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+19:45:02:013  INFO 18128 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+19:45:02:014  INFO 18128 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+19:45:03:009  INFO 18128 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+19:45:03:009  INFO 18128 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+19:45:03:009  INFO 18128 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+19:45:03:009  INFO 18128 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+19:45:03:009  INFO 18128 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+19:45:03:009  INFO 18128 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+19:45:03:009  INFO 18128 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+19:45:03:009  INFO 18128 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+19:45:03:009  INFO 18128 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+19:45:03:009  INFO 18128 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+19:45:03:009  INFO 18128 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+19:45:03:009  INFO 18128 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+19:45:03:009  INFO 18128 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+19:45:03:009  INFO 18128 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+19:45:03:381  INFO 18128 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 354e4ad3-1521-45c3-9751-23ce32ffe36f
+19:45:03:381  INFO 18128 --- [main] com.alibaba.nacos.common.remote.client   : [354e4ad3-1521-45c3-9751-23ce32ffe36f] RpcClient init label, labels = {module=naming, source=sdk}
+19:45:03:382  INFO 18128 --- [main] com.alibaba.nacos.common.remote.client   : [354e4ad3-1521-45c3-9751-23ce32ffe36f] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+19:45:03:382  INFO 18128 --- [main] com.alibaba.nacos.common.remote.client   : [354e4ad3-1521-45c3-9751-23ce32ffe36f] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+19:45:03:382  INFO 18128 --- [main] com.alibaba.nacos.common.remote.client   : [354e4ad3-1521-45c3-9751-23ce32ffe36f] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+19:45:03:383  INFO 18128 --- [main] com.alibaba.nacos.common.remote.client   : [354e4ad3-1521-45c3-9751-23ce32ffe36f] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+19:45:03:492  INFO 18128 --- [main] com.alibaba.nacos.common.remote.client   : [354e4ad3-1521-45c3-9751-23ce32ffe36f] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1765885503387_172.18.0.1_41097
+19:45:03:492  INFO 18128 --- [main] com.alibaba.nacos.common.remote.client   : [354e4ad3-1521-45c3-9751-23ce32ffe36f] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+19:45:03:492  INFO 18128 --- [main] com.alibaba.nacos.common.remote.client   : [354e4ad3-1521-45c3-9751-23ce32ffe36f] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$468/0x00000008003f3040
+19:45:03:492  INFO 18128 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [354e4ad3-1521-45c3-9751-23ce32ffe36f] Notify connected event to listeners.
+19:45:03:729  INFO 18128 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080
+19:45:04:024  INFO 18128 --- [nacos-grpc-client-executor-4] com.alibaba.nacos.common.remote.client   : [354e4ad3-1521-45c3-9751-23ce32ffe36f] Receive server push request, request = NotifySubscriberRequest, requestId = 293
+19:45:04:032  INFO 18128 --- [nacos-grpc-client-executor-4] com.alibaba.nacos.common.remote.client   : [354e4ad3-1521-45c3-9751-23ce32ffe36f] Ack server push request, request = NotifySubscriberRequest, requestId = 293
+19:45:04:183  INFO 18128 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP hm-gateway 192.168.1.107:8080 register finished
+19:45:04:192  INFO 18128 --- [main] com.hmall.gateway.GatewaApplication      : Started GatewaApplication in 4.944 seconds (JVM running for 5.662)
+19:45:04:193  INFO 18128 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateway-local.yaml, group=DEFAULT_GROUP
+19:45:04:194  INFO 18128 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateway, group=DEFAULT_GROUP
+19:45:04:194  INFO 18128 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateway.yaml, group=DEFAULT_GROUP
+19:45:04:718  INFO 18128 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [354e4ad3-1521-45c3-9751-23ce32ffe36f] Receive server push request, request = NotifySubscriberRequest, requestId = 296
+19:45:04:727  INFO 18128 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [354e4ad3-1521-45c3-9751-23ce32ffe36f] Ack server push request, request = NotifySubscriberRequest, requestId = 296
+20:01:31:969  WARN 18128 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+20:01:31:969  WARN 18128 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+20:01:31:969  WARN 18128 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+20:01:31:970  WARN 18128 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+20:01:31:980  INFO 18128 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+20:01:31:983  INFO 18128 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+20:01:32:313  INFO 18128 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+20:01:32:313  INFO 18128 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@4ad351d[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+20:01:32:313  INFO 18128 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1765885503387_172.18.0.1_41097
+20:01:32:314  INFO 18128 --- [nacos-grpc-client-executor-207] c.a.n.c.remote.client.grpc.GrpcClient    : [1765885503387_172.18.0.1_41097]Ignore complete event,isRunning:false,isAbandon=false
+20:01:32:315  INFO 18128 --- [SpringApplicationShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@3078c98c[Running, pool size = 5, active threads = 0, queued tasks = 0, completed tasks = 208]
+20:01:50:498  INFO 52796 --- [main] com.hmall.gateway.GatewaApplication      : The following 1 profile is active: "local"
+20:01:50:850  INFO 52796 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=005c83c3-31e9-3b08-aa29-0a465f17c176
+20:01:50:888  INFO 52796 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:01:50:889  INFO 52796 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:01:50:889  INFO 52796 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:01:52:335  INFO 52796 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+20:01:52:335  INFO 52796 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+20:01:52:335  INFO 52796 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+20:01:52:335  INFO 52796 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+20:01:52:335  INFO 52796 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+20:01:52:335  INFO 52796 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+20:01:52:335  INFO 52796 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+20:01:52:335  INFO 52796 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+20:01:52:335  INFO 52796 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+20:01:52:335  INFO 52796 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+20:01:52:335  INFO 52796 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+20:01:52:336  INFO 52796 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+20:01:52:336  INFO 52796 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+20:01:52:336  INFO 52796 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+20:01:52:896  INFO 52796 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 734f763a-93b3-4fb1-af36-6a9602806c6e
+20:01:52:896  INFO 52796 --- [main] com.alibaba.nacos.common.remote.client   : [734f763a-93b3-4fb1-af36-6a9602806c6e] RpcClient init label, labels = {module=naming, source=sdk}
+20:01:52:898  INFO 52796 --- [main] com.alibaba.nacos.common.remote.client   : [734f763a-93b3-4fb1-af36-6a9602806c6e] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+20:01:52:898  INFO 52796 --- [main] com.alibaba.nacos.common.remote.client   : [734f763a-93b3-4fb1-af36-6a9602806c6e] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+20:01:52:898  INFO 52796 --- [main] com.alibaba.nacos.common.remote.client   : [734f763a-93b3-4fb1-af36-6a9602806c6e] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+20:01:52:898  INFO 52796 --- [main] com.alibaba.nacos.common.remote.client   : [734f763a-93b3-4fb1-af36-6a9602806c6e] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+20:01:53:020  INFO 52796 --- [main] com.alibaba.nacos.common.remote.client   : [734f763a-93b3-4fb1-af36-6a9602806c6e] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1765886512904_172.18.0.1_39565
+20:01:53:020  INFO 52796 --- [main] com.alibaba.nacos.common.remote.client   : [734f763a-93b3-4fb1-af36-6a9602806c6e] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+20:01:53:020  INFO 52796 --- [main] com.alibaba.nacos.common.remote.client   : [734f763a-93b3-4fb1-af36-6a9602806c6e] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$468/0x00000008003f3040
+20:01:53:020  INFO 52796 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [734f763a-93b3-4fb1-af36-6a9602806c6e] Notify connected event to listeners.
+20:01:53:354  INFO 52796 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080
+20:01:53:559  INFO 52796 --- [nacos-grpc-client-executor-4] com.alibaba.nacos.common.remote.client   : [734f763a-93b3-4fb1-af36-6a9602806c6e] Receive server push request, request = NotifySubscriberRequest, requestId = 335
+20:01:53:569  INFO 52796 --- [nacos-grpc-client-executor-4] com.alibaba.nacos.common.remote.client   : [734f763a-93b3-4fb1-af36-6a9602806c6e] Ack server push request, request = NotifySubscriberRequest, requestId = 335
+20:01:53:880  INFO 52796 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP hm-gateway 192.168.1.107:8080 register finished
+20:01:53:890  INFO 52796 --- [main] com.hmall.gateway.GatewaApplication      : Started GatewaApplication in 6.001 seconds (JVM running for 6.644)
+20:01:53:893  INFO 52796 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateway-local.yaml, group=DEFAULT_GROUP
+20:01:53:893  INFO 52796 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateway, group=DEFAULT_GROUP
+20:01:53:893  INFO 52796 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateway.yaml, group=DEFAULT_GROUP
+20:01:54:454  INFO 52796 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [734f763a-93b3-4fb1-af36-6a9602806c6e] Receive server push request, request = NotifySubscriberRequest, requestId = 337
+20:01:54:464  INFO 52796 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [734f763a-93b3-4fb1-af36-6a9602806c6e] Ack server push request, request = NotifySubscriberRequest, requestId = 337
+20:02:44:337  WARN 52796 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+20:02:44:337  WARN 52796 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+20:02:44:337  WARN 52796 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+20:02:44:338  WARN 52796 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+20:02:44:348  INFO 52796 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+20:02:44:351  INFO 52796 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+20:02:44:674  INFO 52796 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+20:02:44:675  INFO 52796 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@28b47938[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+20:02:44:675  INFO 52796 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1765886512904_172.18.0.1_39565
+20:02:44:677  INFO 52796 --- [nacos-grpc-client-executor-20] c.a.n.c.remote.client.grpc.GrpcClient    : [1765886512904_172.18.0.1_39565]Ignore complete event,isRunning:false,isAbandon=false
+20:02:44:678  INFO 52796 --- [SpringApplicationShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@2ed68184[Running, pool size = 5, active threads = 0, queued tasks = 0, completed tasks = 21]
+20:03:41:985  INFO 48772 --- [main] com.hmall.gateway.GatewaApplication      : The following 1 profile is active: "local"
+20:03:42:387  INFO 48772 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=005c83c3-31e9-3b08-aa29-0a465f17c176
+20:03:42:427  INFO 48772 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:03:42:429  INFO 48772 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:03:42:430  INFO 48772 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:03:43:938  INFO 48772 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+20:03:43:938  INFO 48772 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+20:03:43:938  INFO 48772 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+20:03:43:938  INFO 48772 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+20:03:43:938  INFO 48772 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+20:03:43:938  INFO 48772 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+20:03:43:938  INFO 48772 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+20:03:43:938  INFO 48772 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+20:03:43:938  INFO 48772 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+20:03:43:938  INFO 48772 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+20:03:43:938  INFO 48772 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+20:03:43:938  INFO 48772 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+20:03:43:938  INFO 48772 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+20:03:43:938  INFO 48772 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+20:03:44:671  INFO 48772 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of f6cf1aed-33c7-4da6-9b8b-d5707b1557b1
+20:03:44:672  INFO 48772 --- [main] com.alibaba.nacos.common.remote.client   : [f6cf1aed-33c7-4da6-9b8b-d5707b1557b1] RpcClient init label, labels = {module=naming, source=sdk}
+20:03:44:674  INFO 48772 --- [main] com.alibaba.nacos.common.remote.client   : [f6cf1aed-33c7-4da6-9b8b-d5707b1557b1] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+20:03:44:674  INFO 48772 --- [main] com.alibaba.nacos.common.remote.client   : [f6cf1aed-33c7-4da6-9b8b-d5707b1557b1] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+20:03:44:674  INFO 48772 --- [main] com.alibaba.nacos.common.remote.client   : [f6cf1aed-33c7-4da6-9b8b-d5707b1557b1] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+20:03:44:675  INFO 48772 --- [main] com.alibaba.nacos.common.remote.client   : [f6cf1aed-33c7-4da6-9b8b-d5707b1557b1] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+20:03:44:806  INFO 48772 --- [main] com.alibaba.nacos.common.remote.client   : [f6cf1aed-33c7-4da6-9b8b-d5707b1557b1] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1765886624692_172.18.0.1_39979
+20:03:44:806  INFO 48772 --- [main] com.alibaba.nacos.common.remote.client   : [f6cf1aed-33c7-4da6-9b8b-d5707b1557b1] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+20:03:44:806  INFO 48772 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [f6cf1aed-33c7-4da6-9b8b-d5707b1557b1] Notify connected event to listeners.
+20:03:44:806  INFO 48772 --- [main] com.alibaba.nacos.common.remote.client   : [f6cf1aed-33c7-4da6-9b8b-d5707b1557b1] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$468/0x00000008003f3040
+20:03:45:176  INFO 48772 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080
+20:03:45:397  INFO 48772 --- [nacos-grpc-client-executor-4] com.alibaba.nacos.common.remote.client   : [f6cf1aed-33c7-4da6-9b8b-d5707b1557b1] Receive server push request, request = NotifySubscriberRequest, requestId = 344
+20:03:45:409  INFO 48772 --- [nacos-grpc-client-executor-4] com.alibaba.nacos.common.remote.client   : [f6cf1aed-33c7-4da6-9b8b-d5707b1557b1] Ack server push request, request = NotifySubscriberRequest, requestId = 344
+20:03:45:893  INFO 48772 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP hm-gateway 192.168.1.107:8080 register finished
+20:03:45:904  INFO 48772 --- [main] com.hmall.gateway.GatewaApplication      : Started GatewaApplication in 7.506 seconds (JVM running for 8.339)
+20:03:45:907  INFO 48772 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateway-local.yaml, group=DEFAULT_GROUP
+20:03:45:908  INFO 48772 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateway, group=DEFAULT_GROUP
+20:03:45:908  INFO 48772 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateway.yaml, group=DEFAULT_GROUP
+20:03:46:487  INFO 48772 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [f6cf1aed-33c7-4da6-9b8b-d5707b1557b1] Receive server push request, request = NotifySubscriberRequest, requestId = 347
+20:03:46:499  INFO 48772 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [f6cf1aed-33c7-4da6-9b8b-d5707b1557b1] Ack server push request, request = NotifySubscriberRequest, requestId = 347
+20:06:37:741  WARN 48772 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+20:06:37:741  WARN 48772 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+20:06:37:741  WARN 48772 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+20:06:37:742  WARN 48772 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+20:06:37:754  INFO 48772 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+20:06:37:757  INFO 48772 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+20:06:38:083  INFO 48772 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+20:06:38:083  INFO 48772 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@ee03618[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+20:06:38:083  INFO 48772 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1765886624692_172.18.0.1_39979
+20:06:38:085  INFO 48772 --- [nacos-grpc-client-executor-44] c.a.n.c.remote.client.grpc.GrpcClient    : [1765886624692_172.18.0.1_39979]Ignore complete event,isRunning:false,isAbandon=false
+20:06:38:086  INFO 48772 --- [SpringApplicationShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@3e3cb365[Running, pool size = 5, active threads = 0, queued tasks = 0, completed tasks = 45]
+20:07:06:112  INFO 29452 --- [main] com.hmall.gateway.GatewaApplication      : The following 1 profile is active: "local"
+20:07:06:513  INFO 29452 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=005c83c3-31e9-3b08-aa29-0a465f17c176
+20:07:06:545  INFO 29452 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:07:06:546  INFO 29452 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:07:06:547  INFO 29452 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:07:07:665  INFO 29452 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+20:07:07:665  INFO 29452 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+20:07:07:665  INFO 29452 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+20:07:07:665  INFO 29452 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+20:07:07:665  INFO 29452 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+20:07:07:665  INFO 29452 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+20:07:07:665  INFO 29452 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+20:07:07:665  INFO 29452 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+20:07:07:666  INFO 29452 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+20:07:07:666  INFO 29452 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+20:07:07:666  INFO 29452 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+20:07:07:666  INFO 29452 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+20:07:07:666  INFO 29452 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+20:07:07:666  INFO 29452 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+20:07:08:110  INFO 29452 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 6afee0a4-5eed-40a3-9852-ee28e9500ac7
+20:07:08:110  INFO 29452 --- [main] com.alibaba.nacos.common.remote.client   : [6afee0a4-5eed-40a3-9852-ee28e9500ac7] RpcClient init label, labels = {module=naming, source=sdk}
+20:07:08:111  INFO 29452 --- [main] com.alibaba.nacos.common.remote.client   : [6afee0a4-5eed-40a3-9852-ee28e9500ac7] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+20:07:08:111  INFO 29452 --- [main] com.alibaba.nacos.common.remote.client   : [6afee0a4-5eed-40a3-9852-ee28e9500ac7] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+20:07:08:111  INFO 29452 --- [main] com.alibaba.nacos.common.remote.client   : [6afee0a4-5eed-40a3-9852-ee28e9500ac7] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+20:07:08:111  INFO 29452 --- [main] com.alibaba.nacos.common.remote.client   : [6afee0a4-5eed-40a3-9852-ee28e9500ac7] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+20:07:08:235  INFO 29452 --- [main] com.alibaba.nacos.common.remote.client   : [6afee0a4-5eed-40a3-9852-ee28e9500ac7] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1765886828118_172.18.0.1_40673
+20:07:08:235  INFO 29452 --- [main] com.alibaba.nacos.common.remote.client   : [6afee0a4-5eed-40a3-9852-ee28e9500ac7] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+20:07:08:235  INFO 29452 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [6afee0a4-5eed-40a3-9852-ee28e9500ac7] Notify connected event to listeners.
+20:07:08:235  INFO 29452 --- [main] com.alibaba.nacos.common.remote.client   : [6afee0a4-5eed-40a3-9852-ee28e9500ac7] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$468/0x00000008003f3040
+20:07:08:498  INFO 29452 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080
+20:07:08:823  INFO 29452 --- [nacos-grpc-client-executor-4] com.alibaba.nacos.common.remote.client   : [6afee0a4-5eed-40a3-9852-ee28e9500ac7] Receive server push request, request = NotifySubscriberRequest, requestId = 364
+20:07:08:833  INFO 29452 --- [nacos-grpc-client-executor-4] com.alibaba.nacos.common.remote.client   : [6afee0a4-5eed-40a3-9852-ee28e9500ac7] Ack server push request, request = NotifySubscriberRequest, requestId = 364
+20:07:08:931  INFO 29452 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP hm-gateway 192.168.1.107:8080 register finished
+20:07:08:942  INFO 29452 --- [main] com.hmall.gateway.GatewaApplication      : Started GatewaApplication in 5.276 seconds (JVM running for 6.053)
+20:07:08:945  INFO 29452 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateway-local.yaml, group=DEFAULT_GROUP
+20:07:08:945  INFO 29452 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateway, group=DEFAULT_GROUP
+20:07:08:945  INFO 29452 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateway.yaml, group=DEFAULT_GROUP
+20:07:09:518  INFO 29452 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [6afee0a4-5eed-40a3-9852-ee28e9500ac7] Receive server push request, request = NotifySubscriberRequest, requestId = 365
+20:07:09:527  INFO 29452 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [6afee0a4-5eed-40a3-9852-ee28e9500ac7] Ack server push request, request = NotifySubscriberRequest, requestId = 365
+20:07:54:029  WARN 29452 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+20:07:54:029  WARN 29452 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+20:07:54:029  WARN 29452 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+20:07:54:030  WARN 29452 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+20:07:54:042  INFO 29452 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+20:07:54:046  INFO 29452 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+20:07:54:375  INFO 29452 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+20:07:54:375  INFO 29452 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@1d508f92[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+20:07:54:375  INFO 29452 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1765886828118_172.18.0.1_40673
+20:07:54:377  INFO 29452 --- [nacos-grpc-client-executor-19] c.a.n.c.remote.client.grpc.GrpcClient    : [1765886828118_172.18.0.1_40673]Ignore complete event,isRunning:false,isAbandon=false
+20:07:54:377  INFO 29452 --- [SpringApplicationShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@5daaca2a[Running, pool size = 5, active threads = 0, queued tasks = 0, completed tasks = 20]
+20:08:03:737  INFO 34704 --- [main] com.hmall.gateway.GatewaApplication      : The following 1 profile is active: "local"
+20:08:04:140  INFO 34704 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=005c83c3-31e9-3b08-aa29-0a465f17c176
+20:08:04:178  INFO 34704 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:08:04:179  INFO 34704 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:08:04:180  INFO 34704 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:08:05:517  INFO 34704 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+20:08:05:517  INFO 34704 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+20:08:05:517  INFO 34704 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+20:08:05:518  INFO 34704 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+20:08:05:518  INFO 34704 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+20:08:05:518  INFO 34704 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+20:08:05:518  INFO 34704 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+20:08:05:518  INFO 34704 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+20:08:05:518  INFO 34704 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+20:08:05:518  INFO 34704 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+20:08:05:518  INFO 34704 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+20:08:05:518  INFO 34704 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+20:08:05:518  INFO 34704 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+20:08:05:518  INFO 34704 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+20:08:05:981  INFO 34704 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 8eea482d-e524-4ba1-95a0-62550ef6d76a
+20:08:05:982  INFO 34704 --- [main] com.alibaba.nacos.common.remote.client   : [8eea482d-e524-4ba1-95a0-62550ef6d76a] RpcClient init label, labels = {module=naming, source=sdk}
+20:08:05:983  INFO 34704 --- [main] com.alibaba.nacos.common.remote.client   : [8eea482d-e524-4ba1-95a0-62550ef6d76a] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+20:08:05:983  INFO 34704 --- [main] com.alibaba.nacos.common.remote.client   : [8eea482d-e524-4ba1-95a0-62550ef6d76a] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+20:08:05:983  INFO 34704 --- [main] com.alibaba.nacos.common.remote.client   : [8eea482d-e524-4ba1-95a0-62550ef6d76a] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+20:08:05:984  INFO 34704 --- [main] com.alibaba.nacos.common.remote.client   : [8eea482d-e524-4ba1-95a0-62550ef6d76a] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+20:08:06:098  INFO 34704 --- [main] com.alibaba.nacos.common.remote.client   : [8eea482d-e524-4ba1-95a0-62550ef6d76a] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1765886885991_172.18.0.1_40283
+20:08:06:098  INFO 34704 --- [main] com.alibaba.nacos.common.remote.client   : [8eea482d-e524-4ba1-95a0-62550ef6d76a] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+20:08:06:098  INFO 34704 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [8eea482d-e524-4ba1-95a0-62550ef6d76a] Notify connected event to listeners.
+20:08:06:098  INFO 34704 --- [main] com.alibaba.nacos.common.remote.client   : [8eea482d-e524-4ba1-95a0-62550ef6d76a] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$468/0x00000008003f3040
+20:08:06:451  INFO 34704 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080
+20:08:06:690  INFO 34704 --- [nacos-grpc-client-executor-4] com.alibaba.nacos.common.remote.client   : [8eea482d-e524-4ba1-95a0-62550ef6d76a] Receive server push request, request = NotifySubscriberRequest, requestId = 372
+20:08:06:700  INFO 34704 --- [nacos-grpc-client-executor-4] com.alibaba.nacos.common.remote.client   : [8eea482d-e524-4ba1-95a0-62550ef6d76a] Ack server push request, request = NotifySubscriberRequest, requestId = 372
+20:08:06:992  INFO 34704 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP hm-gateway 192.168.1.107:8080 register finished
+20:08:07:000  INFO 34704 --- [main] com.hmall.gateway.GatewaApplication      : Started GatewaApplication in 6.045 seconds (JVM running for 6.782)
+20:08:07:002  INFO 34704 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateway-local.yaml, group=DEFAULT_GROUP
+20:08:07:002  INFO 34704 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateway, group=DEFAULT_GROUP
+20:08:07:002  INFO 34704 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateway.yaml, group=DEFAULT_GROUP
+20:08:07:586  INFO 34704 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [8eea482d-e524-4ba1-95a0-62550ef6d76a] Receive server push request, request = NotifySubscriberRequest, requestId = 373
+20:08:07:596  INFO 34704 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [8eea482d-e524-4ba1-95a0-62550ef6d76a] Ack server push request, request = NotifySubscriberRequest, requestId = 373
+20:14:51:821  WARN 34704 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+20:14:51:821  WARN 34704 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+20:14:51:821  WARN 34704 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+20:14:51:822  WARN 34704 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+20:14:51:834  INFO 34704 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+20:14:51:839  INFO 34704 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+20:14:52:170  INFO 34704 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+20:14:52:170  INFO 34704 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@5c367a1e[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+20:14:52:170  INFO 34704 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1765886885991_172.18.0.1_40283
+20:14:52:171  INFO 34704 --- [nacos-grpc-client-executor-90] c.a.n.c.remote.client.grpc.GrpcClient    : [1765886885991_172.18.0.1_40283]Ignore complete event,isRunning:false,isAbandon=false
+20:14:52:173  INFO 34704 --- [SpringApplicationShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@304a197f[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 91]
+20:22:48:490  INFO 57568 --- [main] com.hmall.gateway.GatewaApplication      : The following 1 profile is active: "local"
+20:22:48:834  INFO 57568 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=005c83c3-31e9-3b08-aa29-0a465f17c176
+20:22:48:880  INFO 57568 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:22:48:881  INFO 57568 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:22:48:882  INFO 57568 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:22:50:240  INFO 57568 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+20:22:50:240  INFO 57568 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+20:22:50:240  INFO 57568 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+20:22:50:240  INFO 57568 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+20:22:50:240  INFO 57568 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+20:22:50:240  INFO 57568 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+20:22:50:240  INFO 57568 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+20:22:50:241  INFO 57568 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+20:22:50:241  INFO 57568 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+20:22:50:241  INFO 57568 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+20:22:50:241  INFO 57568 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+20:22:50:241  INFO 57568 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+20:22:50:241  INFO 57568 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+20:22:50:241  INFO 57568 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+20:22:50:768  INFO 57568 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 35a705e5-f4a1-4aa1-a64d-de2f40f7aa39
+20:22:50:768  INFO 57568 --- [main] com.alibaba.nacos.common.remote.client   : [35a705e5-f4a1-4aa1-a64d-de2f40f7aa39] RpcClient init label, labels = {module=naming, source=sdk}
+20:22:50:769  INFO 57568 --- [main] com.alibaba.nacos.common.remote.client   : [35a705e5-f4a1-4aa1-a64d-de2f40f7aa39] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+20:22:50:769  INFO 57568 --- [main] com.alibaba.nacos.common.remote.client   : [35a705e5-f4a1-4aa1-a64d-de2f40f7aa39] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+20:22:50:769  INFO 57568 --- [main] com.alibaba.nacos.common.remote.client   : [35a705e5-f4a1-4aa1-a64d-de2f40f7aa39] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+20:22:50:770  INFO 57568 --- [main] com.alibaba.nacos.common.remote.client   : [35a705e5-f4a1-4aa1-a64d-de2f40f7aa39] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+20:22:50:902  INFO 57568 --- [main] com.alibaba.nacos.common.remote.client   : [35a705e5-f4a1-4aa1-a64d-de2f40f7aa39] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1765887770784_172.18.0.1_40053
+20:22:50:902  INFO 57568 --- [main] com.alibaba.nacos.common.remote.client   : [35a705e5-f4a1-4aa1-a64d-de2f40f7aa39] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+20:22:50:902  INFO 57568 --- [main] com.alibaba.nacos.common.remote.client   : [35a705e5-f4a1-4aa1-a64d-de2f40f7aa39] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$468/0x00000008003f3040
+20:22:50:902  INFO 57568 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [35a705e5-f4a1-4aa1-a64d-de2f40f7aa39] Notify connected event to listeners.
+20:22:51:175  INFO 57568 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080
+20:22:51:491  INFO 57568 --- [nacos-grpc-client-executor-4] com.alibaba.nacos.common.remote.client   : [35a705e5-f4a1-4aa1-a64d-de2f40f7aa39] Receive server push request, request = NotifySubscriberRequest, requestId = 381
+20:22:51:499  INFO 57568 --- [nacos-grpc-client-executor-4] com.alibaba.nacos.common.remote.client   : [35a705e5-f4a1-4aa1-a64d-de2f40f7aa39] Ack server push request, request = NotifySubscriberRequest, requestId = 381
+20:22:51:729  INFO 57568 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP hm-gateway 192.168.1.107:8080 register finished
+20:22:51:738  INFO 57568 --- [main] com.hmall.gateway.GatewaApplication      : Started GatewaApplication in 5.789 seconds (JVM running for 6.448)
+20:22:51:739  INFO 57568 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateway-local.yaml, group=DEFAULT_GROUP
+20:22:51:740  INFO 57568 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateway, group=DEFAULT_GROUP
+20:22:51:740  INFO 57568 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateway.yaml, group=DEFAULT_GROUP
+20:22:52:287  INFO 57568 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [35a705e5-f4a1-4aa1-a64d-de2f40f7aa39] Receive server push request, request = NotifySubscriberRequest, requestId = 382
+20:22:52:294  INFO 57568 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [35a705e5-f4a1-4aa1-a64d-de2f40f7aa39] Ack server push request, request = NotifySubscriberRequest, requestId = 382
+20:23:11:322  WARN 57568 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+20:23:11:323  WARN 57568 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+20:23:11:323  WARN 57568 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+20:23:11:323  WARN 57568 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+20:23:11:335  INFO 57568 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+20:23:11:339  INFO 57568 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+20:23:11:668  INFO 57568 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+20:23:11:668  INFO 57568 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@514f98ce[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+20:23:11:668  INFO 57568 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1765887770784_172.18.0.1_40053
+20:23:11:670  INFO 57568 --- [nacos-grpc-client-executor-13] c.a.n.c.remote.client.grpc.GrpcClient    : [1765887770784_172.18.0.1_40053]Ignore complete event,isRunning:false,isAbandon=false
+20:23:11:670  INFO 57568 --- [SpringApplicationShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@516d8aa[Running, pool size = 5, active threads = 0, queued tasks = 0, completed tasks = 14]
