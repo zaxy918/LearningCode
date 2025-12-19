@@ -66,6 +66,10 @@ public:
       }
       res = max(temp, res);
     } else {
+      /*
+       * Start to enum from the least num of the sequence.
+       * Skip all nums that is not the least.
+       */
       unordered_set<int> us(nums.begin(), nums.end());
       for (auto &n : us) {
         int num = n;
