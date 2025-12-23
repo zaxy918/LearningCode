@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ebc99239-bdf4-41a7-9b11-a7b008f09c6f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../hmall/hm-common/src/main/java/com/hmall/common/config/MqConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/pay-service.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/pay-service/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hmall/trade-service/src/main/java/com/hmall/trade/listener/PayStatusListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/com/itheima/consumer/conifg/DirectConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/com/itheima/consumer/conifg/FanoutConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/com/itheima/consumer/mq/SpringRabbitListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/publisher/src/main/java/com/itheima/publisher/config/MqConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/publisher/src/test/java/com/itheima/publisher/PublisherApplicationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/hm-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/hm-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/hm-common/src/main/resources/META-INF/spring.factories" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/hm-common/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/hm-common/target/classes/META-INF/spring.factories" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/hm-common/target/classes/META-INF/spring.factories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/logs/cart-service/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/logs/cart-service/spring.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/logs/cart-service/spring.log.2025-12-12.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/logs/cart-service/spring.log.2025-12-13.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/logs/hm-gateway/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/logs/hm-gateway/spring.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/logs/item-service/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/logs/item-service/spring.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/logs/item-service/spring.log.2025-12-10.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/logs/item-service/spring.log.2025-12-11.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/logs/item-service/spring.log.2025-12-12.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/logs/item-service/spring.log.2025-12-13.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/logs/pay-service/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/logs/pay-service/spring.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/logs/pay-service/spring.log.2025-12-12.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/logs/pay-service/spring.log.2025-12-13.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/logs/trade-service/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/logs/trade-service/spring.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/logs/trade-service/spring.log.2025-12-12.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/logs/trade-service/spring.log.2025-12-13.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/logs/user-service/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/logs/user-service/spring.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/logs/user-service/spring.log.2025-12-12.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/logs/user-service/spring.log.2025-12-13.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/pay-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/pay-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/pay-service/src/main/java/com/hmall/pay/service/impl/PayOrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/pay-service/src/main/java/com/hmall/pay/service/impl/PayOrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/pay-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/pay-service/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/pay-service/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/pay-service/target/classes/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/pay-service/target/classes/com/hmall/pay/service/impl/PayOrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/pay-service/target/classes/com/hmall/pay/service/impl/PayOrderServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/trade-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/trade-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/trade-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/trade-service/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/trade-service/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/trade-service/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/trade-service/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/trade-service/target/classes/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/trade-service/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/trade-service/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hmall/trade-service/target/classes/com/hmall/trade/service/impl/OrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hmall/trade-service/target/classes/com/hmall/trade/service/impl/OrderServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rust/hello/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../rust/hello/target/.rustc_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rust/hello/target/debug/deps/hello.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../rust/hello/target/debug/deps/hello.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rust/hello/target/debug/deps/hello.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../rust/hello/target/debug/deps/hello.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rust/hello/target/debug/hello.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../rust/hello/target/debug/hello.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rust/hello/target/debug/hello.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../rust/hello/target/debug/hello.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rust/hello/target/debug/incremental/hello-1tida8e0k1kaj/s-he0xev3c3i-1b1p0jn-91o1ak0of74lwdq35qvbov41m/0ejgzx18khgsxfp26qg1ldmmr.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rust/hello/target/debug/incremental/hello-1tida8e0k1kaj/s-he0xev3c3i-1b1p0jn-91o1ak0of74lwdq35qvbov41m/3zp9uekkdo1yg0l1dyvkuko15.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rust/hello/target/debug/incremental/hello-1tida8e0k1kaj/s-he0xev3c3i-1b1p0jn-91o1ak0of74lwdq35qvbov41m/5yu1lp2hpf5ye22wtag3cx0ql.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rust/hello/target/debug/incremental/hello-1tida8e0k1kaj/s-he0xev3c3i-1b1p0jn-91o1ak0of74lwdq35qvbov41m/7hh11ykeb7wa4h2vgv0f06887.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rust/hello/target/debug/incremental/hello-1tida8e0k1kaj/s-he0xev3c3i-1b1p0jn-91o1ak0of74lwdq35qvbov41m/9l5ir6ru455f1j4b4y5vd1nud.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rust/hello/target/debug/incremental/hello-1tida8e0k1kaj/s-he0xev3c3i-1b1p0jn-91o1ak0of74lwdq35qvbov41m/a5h7g6ir7lugfku6fk17x6pbc.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rust/hello/target/debug/incremental/hello-1tida8e0k1kaj/s-he0xev3c3i-1b1p0jn-91o1ak0of74lwdq35qvbov41m/dep-graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rust/hello/target/debug/incremental/hello-1tida8e0k1kaj/s-he0xev3c3i-1b1p0jn-91o1ak0of74lwdq35qvbov41m/query-cache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rust/hello/target/debug/incremental/hello-1tida8e0k1kaj/s-he0xev3c3i-1b1p0jn-91o1ak0of74lwdq35qvbov41m/work-products.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rust/hello/target/debug/incremental/hello-1tida8e0k1kaj/s-he0xev3c3i-1b1p0jn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rust/hello/target/flycheck0/stderr" beforeDir="false" afterPath="$PROJECT_DIR$/../../rust/hello/target/flycheck0/stderr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rust/hello/target/flycheck0/stdout" beforeDir="false" afterPath="$PROJECT_DIR$/../../rust/hello/target/flycheck0/stdout" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="376wHJ6eqjNokZqDpdXl1dYV0on" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
+    <option name="sortKey" value="BY_TYPE" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.PublisherApplicationTest.executor": "Run",
+    "JUnit.PublisherApplicationTest.testConfirmCallback.executor": "Run",
+    "JUnit.PublisherApplicationTest.testDirectExchange.executor": "Run",
+    "JUnit.PublisherApplicationTest.testDurable.executor": "Run",
+    "JUnit.PublisherApplicationTest.testFanoutExchange.executor": "Debug",
+    "JUnit.PublisherApplicationTest.testObjectQueue.executor": "Run",
+    "JUnit.PublisherApplicationTest.testSimpleQueue.executor": "Run",
+    "JUnit.PublisherApplicationTest.testTopicExchange.executor": "Run",
+    "JUnit.PublisherApplicationTest.testWorkQueue.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "Spring Boot.ConsumerApplication.executor": "Run",
+    "Spring Boot.PublisherApplication.executor": "Run",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/LearningCode/Code/ideaProject/mq-demo",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.itheima.consumer" />
+      <recent name="com.itheima.publisher" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.PublisherApplicationTest.testDurable">
+    <configuration name="PublisherApplicationTest.testConfirmCallback" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="publisher" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.publisher.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.publisher" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.publisher.PublisherApplicationTest" />
+      <option name="METHOD_NAME" value="testConfirmCallback" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PublisherApplicationTest.testDurable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="publisher" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.publisher.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.publisher" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.publisher.PublisherApplicationTest" />
+      <option name="METHOD_NAME" value="testDurable" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PublisherApplicationTest.testObjectQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="publisher" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.publisher.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.publisher" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.publisher.PublisherApplicationTest" />
+      <option name="METHOD_NAME" value="testObjectQueue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PublisherApplicationTest.testSimpleQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="publisher" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.publisher.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.publisher" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.publisher.PublisherApplicationTest" />
+      <option name="METHOD_NAME" value="testSimpleQueue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itheima.consumer.ConsumerApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PublisherApplicationTest.testDurable" />
+        <item itemvalue="JUnit.PublisherApplicationTest.testConfirmCallback" />
+        <item itemvalue="JUnit.PublisherApplicationTest.testSimpleQueue" />
+        <item itemvalue="JUnit.PublisherApplicationTest.testObjectQueue" />
+        <item itemvalue="Spring Boot.ConsumerApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-cffe25b9f5b3-intellij.indexing.shared.core-IU-253.28294.334" />
+        <option value="bundled-js-predefined-d6986cc7102b-c7e53b3be11b-JavaScript-IU-253.28294.334" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ebc99239-bdf4-41a7-9b11-a7b008f09c6f" name="Changes" comment="" />
+      <created>1766236739262</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1766236739262</updated>
+      <workItem from="1766236740407" duration="5238000" />
+      <workItem from="1766313961511" duration="3504000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
+  </component>
+</project>
