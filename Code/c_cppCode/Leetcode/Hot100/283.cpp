@@ -1,31 +1,28 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-class Solution1 {
-public:
-  void moveZeroes(vector<int> &nums) {
-    int cnt = 0;
-    for (int i = nums.size() - 1; i >= 0; i--) {
-      if (nums.at(i) == 0) {
-        cnt++;
-        for (int j = i; j < nums.size() - cnt; j++) {
-          swap(nums.at(j), nums.at(j + 1));
-        }
-      }
-    }
-  }
-};
 class Solution {
 public:
   void moveZeroes(vector<int> &nums) {
-    if (nums.size() == 0) return;
-    int l = 0, r = 1;
-    for (int i = 0; i < nums.size(); i++) {
-      if (nums.at(l)) {
-        r++;
-      } else {
-        swap(nums.at(l), nums.at(r));
+    if (nums.size() <= 1) return;
+    int slow = 0;
+    while (slow < nums.size() && nums.at(slow) != 0) slow++;
+    for (int fast = slow + 1; fast < nums.size(); fast++) {
+      if (nums.at(fast) != 0) {
+        swap(nums.at(slow), nums.at(fast));
+        slow++;
       }
+    }
+  }
+
+  void moveZeros2(vector<int> &nums) {
+    int left = 0, right = 0;
+    while (right < nums.size()) {
+      if (nums.at(right)) {
+        swap(nums.at(right), nums.at(left));
+        left++;
+      }
+      right++;
     }
   }
 };
