@@ -1,4 +1,3 @@
-import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
 import java.io.BufferedReader;
 import java.io.FileInputStream;
@@ -10,10 +9,10 @@ import java.net.InetSocketAddress;
 import java.net.Socket;
 
 /**
- * Simple Socket client:
- * 1) Send from standard input (end with two consecutive blank lines) or file
- * 2) Prompt error on connection failure due to incorrect IP/port
- * 3) Support sending long text (20KB+), using buffered streams
+ * Simple Socket client with interactive send:
+ * 1) Connect once, then send multiple messages without disconnecting
+ * 2) Each message can be chosen as text or file after startup
+ * 3) Prompt error on connection failure due to incorrect IP/port
  * 4) Optionally start a receiving thread to support duplex communication
  */
 public class Client {
@@ -27,27 +26,37 @@ public class Client {
         this.duplexReceive = duplexReceive;
     }
 
-    public void sendFromStdin() {
-        try (Socket socket = createSocket(); PrintWriter writer = new PrintWriter(new BufferedOutputStream(socket.getOutputStream()), true); BufferedReader console = new BufferedReader(new InputStreamReader(System.in))) {
+    public void runInteractive() {
+        try (Socket socket = createSocket(); BufferedOutputStream out = new BufferedOutputStream(socket.getOutputStream()); PrintWriter writer = new PrintWriter(out, true); BufferedReader console = new BufferedReader(new InputStreamReader(System.in))) {
 
             startReceiverIfNeeded(socket);
 
-            System.out.println("Please enter content, end with two consecutive blank lines:");
-            StringBuilder sb = new StringBuilder();
-            String line;
-            int blankCount = 0;
-            while ((line = console.readLine()) != null) {
-                if (line.isEmpty())
-                    blankCount++;
-                else
-                    blankCount = 0;
-                sb.append(line).append("\n");
-                if (blankCount >= 2)
+            System.out.println("Connected. Commands: 'text' to type, 'file <path>' to send file, 'exit' to quit.");
+            while (true) {
+                System.out.print("[text|file <path>|exit]>\n");
+                String command = console.readLine();
+                if (command == null)
                     break;
+                command = command.trim();
+                if (command.isEmpty())
+                    continue;
+                if ("exit".equalsIgnoreCase(command))
+                    break;
+                if (command.equalsIgnoreCase("text")) {
+                    sendTextMessage(writer, console);
+                    continue;
+                }
+                if (command.toLowerCase().startsWith("file ")) {
+                    String filePath = command.substring(5).trim();
+                    if (filePath.isEmpty()) {
+                        System.out.println("Please provide a file path after 'file'.");
+                        continue;
+                    }
+                    sendFileMessage(writer, filePath);
+                    continue;
+                }
+                System.out.println("Unknown command, please use 'text', 'file <path>' or 'exit'.");
             }
-            writer.print(sb.toString());
-            writer.flush();
-            // Can keep the connection open to wait for server echo if needed; here simply close.
         } catch (ConnectException ce) {
             System.err.println("Connection failed, check if IP/port is correct: " + ce.getMessage());
         } catch (IOException e) {
@@ -55,21 +64,34 @@ public class Client {
         }
     }
 
-    public void sendFromFile(String filePath) {
-        try (Socket socket = createSocket(); BufferedInputStream fileIn = new BufferedInputStream(new FileInputStream(filePath)); BufferedOutputStream out = new BufferedOutputStream(socket.getOutputStream())) {
+    private void sendTextMessage(PrintWriter writer, BufferedReader console) throws IOException {
+        System.out.println("Enter text, end with two consecutive blank lines:");
+        StringBuilder sb = new StringBuilder();
+        String line;
+        int blankCount = 0;
+        while ((line = console.readLine()) != null) {
+            if (line.isEmpty())
+                blankCount++;
+            else
+                blankCount = 0;
+            sb.append(line).append("\n");
+            if (blankCount >= 2)
+                break;
+        }
+        writer.print(sb.toString());
+        writer.flush();
+    }
 
-            startReceiverIfNeeded(socket);
-
-            byte[] buf = new byte[8192];
-            int n;
-            while ((n = fileIn.read(buf)) != -1) {
-                out.write(buf, 0, n);
+    private void sendFileMessage(PrintWriter writer, String filePath) {
+        try (BufferedReader fileReader = new BufferedReader(new InputStreamReader(new FileInputStream(filePath)))) {
+            String line;
+            while ((line = fileReader.readLine()) != null) {
+                writer.println(line);
             }
-            out.flush();
-        } catch (ConnectException ce) {
-            System.err.println("Connection failed, check if IP/port is correct: " + ce.getMessage());
+            writer.flush();
+            System.out.println("File sent: " + filePath);
         } catch (IOException e) {
-            System.err.println("Client IO exception: " + e.getMessage());
+            System.err.println("Failed to send file: " + e.getMessage());
         }
     }
 
@@ -101,7 +123,6 @@ public class Client {
         String host = "127.0.0.1";
         int port = 9000;
         boolean duplexReceive = true;
-        String filePath = null;
 
         if (args.length >= 1)
             host = args[0];
@@ -109,14 +130,8 @@ public class Client {
             port = Integer.parseInt(args[1]);
         if (args.length >= 3)
             duplexReceive = Boolean.parseBoolean(args[2]);
-        if (args.length >= 4)
-            filePath = args[3];
 
         Client client = new Client(host, port, duplexReceive);
-        if (filePath != null) {
-            client.sendFromFile(filePath);
-        } else {
-            client.sendFromStdin();
-        }
+        client.runInteractive();
     }
 }

@@ -6,6 +6,8 @@ import java.net.BindException;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.net.SocketException;
+import java.util.List;
+import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
@@ -20,6 +22,7 @@ public class Server {
     private final int port;
     private final boolean duplex;
     private final ExecutorService pool;
+    private final List<ClientHandler> clients = new CopyOnWriteArrayList<>();
 
     public Server(int port, boolean duplex, int maxClients) {
         this.port = port;
@@ -30,9 +33,20 @@ public class Server {
     public void start() {
         try (ServerSocket serverSocket = new ServerSocket(port)) {
             System.out.println("Server listening on port " + port + " ...");
+            startConsoleBroadcaster();
             while (true) {
                 Socket client = serverSocket.accept();
-                pool.execute(new ClientHandler(client, duplex));
+                try {
+                    ClientHandler handler = new ClientHandler(client, duplex, clients::remove);
+                    clients.add(handler);
+                    pool.execute(handler);
+                } catch (IOException e) {
+                    System.err.println("Failed to initialize client handler: " + e.getMessage());
+                    try {
+                        client.close();
+                    } catch (IOException ignored) {
+                    }
+                }
             }
         } catch (BindException be) {
             System.err.println("Port binding failed, possibly due to port being in use or insufficient permissions: " + be.getMessage());
@@ -41,20 +55,50 @@ public class Server {
         }
     }
 
+    private void startConsoleBroadcaster() {
+        Thread t = new Thread(() -> {
+            try (BufferedReader console = new BufferedReader(new InputStreamReader(System.in))) {
+                System.out.println("Server console ready. Type messages to broadcast or '/quit' to stop console input.");
+                String line;
+                while ((line = console.readLine()) != null) {
+                    if ("/quit".equalsIgnoreCase(line.trim())) {
+                        System.out.println("Console input stopped; server continues running.");
+                        break;
+                    }
+                    broadcast("[Server] " + line);
+                }
+            } catch (IOException e) {
+                System.err.println("Console broadcast error: " + e.getMessage());
+            }
+        });
+        t.setDaemon(true);
+        t.start();
+    }
+
+    private void broadcast(String msg) {
+        for (ClientHandler handler : clients) {
+            handler.send(msg);
+        }
+    }
+
     private static class ClientHandler implements Runnable {
         private final Socket socket;
         private final boolean duplex;
+        private final PrintWriter writer;
+        private final java.util.function.Consumer<ClientHandler> onClose;
 
-        ClientHandler(Socket socket, boolean duplex) {
+        ClientHandler(Socket socket, boolean duplex, java.util.function.Consumer<ClientHandler> onClose) throws IOException {
             this.socket = socket;
             this.duplex = duplex;
+            this.onClose = onClose;
+            this.writer = new PrintWriter(socket.getOutputStream(), true);
         }
 
         @Override
         public void run() {
             String remote = socket.getRemoteSocketAddress().toString();
             System.out.println("Client connected: " + remote);
-            try (BufferedReader reader = new BufferedReader(new InputStreamReader(socket.getInputStream())); PrintWriter writer = new PrintWriter(socket.getOutputStream(), true)) {
+            try (BufferedReader reader = new BufferedReader(new InputStreamReader(socket.getInputStream()))) {
 
                 String line;
                 while ((line = reader.readLine()) != null) {
@@ -74,7 +118,14 @@ public class Server {
                     socket.close();
                 } catch (IOException ignored) {
                 }
+                onClose.accept(this);
                 System.out.println("Client disconnected: " + remote);
+            }
+        }
+
+        void send(String msg) {
+            synchronized (writer) {
+                writer.println(msg);
             }
         }
     }
