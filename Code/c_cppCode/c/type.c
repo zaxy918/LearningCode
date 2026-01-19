@@ -1,7 +1,24 @@
 #include <stdbool.h>
 #include <stdio.h>
+
+long long abs2(void *p, char type) {
+  int val;
+  if (type == 'i') {
+    val = *(int *)p;
+  } else if (type == 'l') {
+    val = *(long long *)p;
+  }
+  return val > 0 ? val : -val;
+}
+
+int abs(int val) {
+  return val < 0 ? -val : val;
+}
+
 int main() {
-  int a = 1;
+  long long val = -19929367890LL;
+  int val2 = -111;
+  printf("%d %lld", abs2(&val2, 'i'), abs2(&val, 'l'));
   // if (a == true && !false)
   //   printf("a is true\n");
   // else

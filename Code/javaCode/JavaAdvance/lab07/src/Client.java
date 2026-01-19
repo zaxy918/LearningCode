@@ -7,7 +7,6 @@ import java.io.PrintWriter;
 import java.net.ConnectException;
 import java.net.InetSocketAddress;
 import java.net.Socket;
-
 /**
  * Simple Socket client with interactive send:
  * 1) Connect once, then send multiple messages without disconnecting

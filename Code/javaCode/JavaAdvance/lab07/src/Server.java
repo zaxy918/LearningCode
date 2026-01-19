@@ -133,7 +133,7 @@ public class Server {
     public static void main(String[] args) {
         int port = 9000;
         boolean duplex = true;   // Enable duplex showback by default
-        int maxClients = 5;     // Support more than 5 clients
+        int maxClients = 16;     // Support more than 5 clients
 
         if (args.length >= 1)
             port = Integer.parseInt(args[0]);
