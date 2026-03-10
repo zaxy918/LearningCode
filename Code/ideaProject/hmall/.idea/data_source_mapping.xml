@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourcePerFileMappings">
-    <file url="file://$PROJECT_DIR$/.idea/queries/Query.sql" value="4a995d97-820e-4d50-9408-3825b93fc80e" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/7dd1a76e-298d-44be-bf3e-f6ceecb8ddd1/console.sql" value="7dd1a76e-298d-44be-bf3e-f6ceecb8ddd1" />
     <file url="file://$PROJECT_DIR$/cart-service/src/main/java/com/hmall/cart/mapper/CartMapper.java" value="4a995d97-820e-4d50-9408-3825b93fc80e" />
     <file url="file://$PROJECT_DIR$/item-service/src/main/java/com/hmall/item/mapper/ItemMapper.java" value="4a995d97-820e-4d50-9408-3825b93fc80e" />
     <file url="file://$PROJECT_DIR$/user-service/src/main/java/com/hmall/user/mapper/UserMapper.java" value="4a995d97-820e-4d50-9408-3825b93fc80e" />

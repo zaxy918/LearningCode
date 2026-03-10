@@ -17,7 +17,7 @@ public:
       } else if (ptrhe == heaters.size() - 1 || houses[ptrho] < heaters[ptrhe]) {
         ans = dis;
       } else if (houses[ptrho] > heaters[ptrhe]) {
-        if (abs(heaters[ptrhe + 1] - houses[ptrho]) >= dis) {
+        if (abs(heaters[ptrhe + 1] - houses[ptrho]) > dis) {
           ans = dis;
           ptrho++;
         } else {
@@ -28,11 +28,3 @@ public:
     return ans;
   }
 };
-
-int main() {
-  Solution s;
-  vector<int> houses({1, 2, 3, 4});
-  vector<int> heaters({1, 2, 3, 4});
-  s.findRadius(houses, heaters);
-  return 0;
-}
