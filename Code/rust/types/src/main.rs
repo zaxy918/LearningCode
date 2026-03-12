@@ -1,6 +1,6 @@
 fn main() {
     let x = 999;
-    let y: i64 = 111;
+    let y: i64 = 111_222_333;
     let z = 1.99f32;
     println!("x: {x}, y: {y}, z: {z}");
 
