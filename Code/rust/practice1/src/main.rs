@@ -1,10 +1,28 @@
+struct Rectangle {
+    width: u32,
+    height: u32,
+}
+
+impl Rectangle {
+    fn from(width: u32, height: u32) -> Rectangle {
+        println!("A rectagnle width{width}, height{height} is created");
+        Rectangle { width, height }
+    }
+
+    fn is_contain(&self, other: &Rectangle) -> bool {
+        self.width >= other.width && self.height >= other.height
+    }
+}
+
 fn main() {
-    let mut s1 = String::from("Hello");
-    s1.push_str(", Rust!");
-    println!("{s1}");
-    let s2 = "你好，Rust世界！";
-    // Print 你好
-    println!("{}", &s2[..6]);
-    // Print Rust世界
-    println!("{}", &s2[9..]);
+    let rec1 = Rectangle::from(3, 5);
+    let rec2 = Rectangle::from(6, 9);
+    println!(
+        "Is rec1 ({},{}) contains rec2 ({},{})? {}",
+        rec1.width,
+        rec1.height,
+        rec2.width,
+        rec2.height,
+        rec1.is_contain(&rec2)
+    );
 }
