@@ -1,3 +1,4 @@
+<<<<<<< HEAD
    0.007802100s  INFO prepare_target{force=false package_id=practice1 v0.1.0 (D:\LearningCode\Code\rust\practice1) target="practice1"}: cargo::core::compiler::fingerprint: stale: changed "D:\\LearningCode\\Code\\rust\\practice1\\src\\main.rs"
    0.007828000s  INFO prepare_target{force=false package_id=practice1 v0.1.0 (D:\LearningCode\Code\rust\practice1) target="practice1"}: cargo::core::compiler::fingerprint:           (vs) "D:\\LearningCode\\Code\\rust\\practice1\\target\\debug\\.fingerprint\\practice1-caca5e2ecb29f30a\\dep-bin-practice1"
    0.007832600s  INFO prepare_target{force=false package_id=practice1 v0.1.0 (D:\LearningCode\Code\rust\practice1) target="practice1"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 13418372838, nanos: 177497100 } < FileTime { seconds: 13418375502, nanos: 342695400 }
@@ -10,3 +11,10 @@
    0.008417000s  INFO prepare_target{force=false package_id=practice1 v0.1.0 (D:\LearningCode\Code\rust\practice1) target="practice1"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "D:\\LearningCode\\Code\\rust\\practice1\\target\\debug\\.fingerprint\\practice1-b80f817f6a5c0025\\dep-test-bin-practice1", reference_mtime: FileTime { seconds: 13418372838, nanos: 176429800 }, stale: "D:\\LearningCode\\Code\\rust\\practice1\\src\\main.rs", stale_mtime: FileTime { seconds: 13418375502, nanos: 342695400 } }))
     Checking practice1 v0.1.0 (D:\LearningCode\Code\rust\practice1)
     Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.12s
+=======
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.01s
+>>>>>>> 36c07bec811cea0bc8c185275b9d343d666b316a
